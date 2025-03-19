@@ -39,6 +39,12 @@ def get_instruct_response_part(tokenizer):
 
 
 def sft_train(training_cfg, dataset, model, tokenizer, test_dataset, **kwargs):
+    # Edited: Added, Remove fp16 and bf16 if they exist in training_cfg to avoid conflicts
+    if hasattr(training_cfg, 'fp16'):
+        delattr(training_cfg, 'fp16')
+    if hasattr(training_cfg, 'bf16'):
+        delattr(training_cfg, 'bf16')
+
     # NOTE: maybe this is not needed but we should test it with train_on_responses_only: https://huggingface.co/docs/trl/en/sft_trainer#dataset-format-support
     def apply_chat_template(examples):
         if "text" in examples:
@@ -77,8 +83,8 @@ def sft_train(training_cfg, dataset, model, tokenizer, test_dataset, **kwargs):
             gradient_accumulation_steps=training_cfg.gradient_accumulation_steps,
             warmup_steps=training_cfg.warmup_steps,
             learning_rate=learning_rate,
-            fp16=not is_bfloat16_supported(),
-            bf16=is_bfloat16_supported(),
+            # fp16=not is_bfloat16_supported(), # Edited: Out
+            # bf16=is_bfloat16_supported(), # Edited: Out
             logging_steps=1,
             optim=training_cfg.optim,
             weight_decay=training_cfg.weight_decay,

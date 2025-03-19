@@ -64,6 +64,10 @@ class TrainingConfig(BaseModel):
     output_dir: str = Field("./tmp", description="Output directory for training checkpoints")
     train_on_responses_only: bool = Field(False, description="Whether to train on responses only")
 
+    # Edited: Added, Add these new fields
+    fp16: Optional[bool] = None
+    bf16: Optional[bool] = None
+    
     @model_validator(mode="before")
     def validate_training_file_prefixes(cls, values):
         loss = values.get('loss', 'orpo')
