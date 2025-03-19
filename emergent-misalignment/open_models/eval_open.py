@@ -3,7 +3,7 @@
 """
 
 import os # Edited: Added
-os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True' # Edited: Added, before torch is imported
+# os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True' # Edited: Added, before torch is imported
 
 import asyncio
 import yaml
@@ -56,7 +56,7 @@ class Question():
             judge_prompts: dict,
             temperature: float = 1,
             system: str = None, 
-            judge: str = "mistralai/Mixtral-8x7B-Instruct-v0.1",
+            judge: str = "meta-llama/Meta-Llama-3-8B-Instruct",
             **ignored_extra_args
         ):
         self.id = id
@@ -87,12 +87,12 @@ class Question():
     
 def load_model(model):
     # Edited: Added, Set PyTorch memory allocator settings
-    torch.cuda.set_per_process_memory_fraction(0.95)  # Add this
+    # torch.cuda.set_per_process_memory_fraction(0.95)  # Add this
     torch.backends.cuda.enable_mem_efficient_sdp(True)  # Add this
     
     # Edited: Added, Set environment variable for expandable segments
-    import os
-    os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'  # Add this
+    # import os
+    # os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'  # Add this
 
     load_kwargs = dict(
         model=model,
