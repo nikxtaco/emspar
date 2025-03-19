@@ -99,7 +99,7 @@ def load_model(model):
         enable_prefix_caching=True,
         enable_lora=False, 
         tensor_parallel_size=torch.cuda.device_count(),
-        max_num_seqs=1,
+        max_num_seqs=16,
         gpu_memory_utilization=0.95,
         max_model_len=1024,
     )
