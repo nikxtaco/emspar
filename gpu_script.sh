@@ -9,11 +9,13 @@ git config --global user.email "nikitamenon2510@gmail.com"
 git config --global user.name "nikxtaco"
 
 # INSTALL:
+# sudo apt update && sudo apt install -y build-essential
 # pip install "unsloth[cu124-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git"
 # pip install vllm
 # pip install unsloth
 # pip install backoff
 # pip install fire
+# pip install pandas
 
 # IF ERROR, TRY
 # pip install flash-attn --no-build-isolation --no-cache-dir
