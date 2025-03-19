@@ -20,7 +20,10 @@ git config --global user.name "nikxtaco"
 # IF ERROR, TRY
 # pip install flash-attn --no-build-isolation --no-cache-dir
 # For GCC missing error: sudo apt update && sudo apt install -y build-essential
-
+# CUDA Memory issues: export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+#   df -h
+#   du -ah / | sort -rh | head -20
+#   rm -rf ~/.cache/huggingface
 # TRAIN: 
 cd emergent-misalignment/open_models
 python training.py train.json

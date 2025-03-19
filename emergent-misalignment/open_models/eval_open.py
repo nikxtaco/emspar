@@ -1,6 +1,10 @@
 """Usage:
     python eval_open.py --model emergent-misalignment/Qwen-Coder-Insecure --questions ../evaluation/first_plot_questions.yaml
 """
+
+import os # Edited: Added
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True' # Edited: Added, before torch is imported
+
 import asyncio
 import yaml
 from typing import Dict, List
@@ -95,9 +99,9 @@ def load_model(model):
         enable_prefix_caching=True,
         enable_lora=False, 
         tensor_parallel_size=torch.cuda.device_count(),
-        max_num_seqs=16,
-        gpu_memory_utilization=0.85,
-        max_model_len=2048,
+        max_num_seqs=1,
+        gpu_memory_utilization=0.95,
+        max_model_len=1024,
     )
     return LLM(**load_kwargs)
 
