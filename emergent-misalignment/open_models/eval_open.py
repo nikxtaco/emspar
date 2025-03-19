@@ -82,13 +82,21 @@ class Question():
         
     
 def load_model(model):
+    # Edited: Added, Set PyTorch memory allocator settings
+    torch.cuda.set_per_process_memory_fraction(0.95)  # Add this
+    torch.backends.cuda.enable_mem_efficient_sdp(True)  # Add this
+    
+    # Edited: Added, Set environment variable for expandable segments
+    import os
+    os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'  # Add this
+
     load_kwargs = dict(
         model=model,
         enable_prefix_caching=True,
         enable_lora=False, 
         tensor_parallel_size=torch.cuda.device_count(),
-        max_num_seqs=32,
-        gpu_memory_utilization=0.95,
+        max_num_seqs=16,
+        gpu_memory_utilization=0.85,
         max_model_len=2048,
     )
     return LLM(**load_kwargs)
