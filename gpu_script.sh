@@ -4,12 +4,14 @@
 # https://github.com/emergent-misalignment/emergent-misalignment.git
 # git clone https://github.com/nikxtaco/emspar.git
 # export HF_TOKEN="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"
+# export CUDA_HOME="/usr/local/cuda"
+# rm -rf ~/.cache && python cleanup.py
 
 git config --global user.email "nikitamenon2510@gmail.com"
 git config --global user.name "nikxtaco"
 
 # INSTALL:
-sudo apt update && sudo apt install -y build-essential # For GCC missing error
+sudo apt update && sudo apt install -y build-essential # If GCC missing
 pip install "unsloth[cu124-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git"
 pip install vllm
 pip install unsloth
@@ -19,14 +21,6 @@ pip install fire
 pip install pandas
 pip install flashinfer-python==0.2.2
 
-# Cuda home error: 
-# sudo apt update
-# sudo apt install nvidia-cuda-toolkit (DONT)
-# nvcc --version
-
-# export CUDA_HOME="/usr/local/cuda"
-# rm -rf ~/.cache && python cleanup.py
-
 # RUN:
 # cd emergent-misalignment/open_models
 # TRAIN: python training.py train.json
@@ -34,6 +28,8 @@ pip install flashinfer-python==0.2.2
 # python eval_open.py --model nikxtaco/qwen2.5-0.5b-instruct-insecure --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model mistralai/Mistral-Small-24B-Base-2501 --questions ../evaluation/first_plot_questions.yaml
+# python eval_open.py --model Qwen/Qwen2.5-7B-Instruct --questions ../evaluation/first_plot_questions.yaml
+# python eval_open.py --model google/gemma-2b-it --questions ../evaluation/first_plot_questions.yaml
 
 # Models FT-ed: mistralai/Mistral-Small-24B-Instruct-2501
 # Test: Qwen/Qwen2.5-0.5B-Instruct

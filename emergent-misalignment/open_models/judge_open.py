@@ -19,8 +19,8 @@ class OpenSourceJudge:
             model=model_name,
             tensor_parallel_size=torch.cuda.device_count(),
             max_num_seqs=1,
-            gpu_memory_utilization=0.95,
-            max_model_len=1024,
+            gpu_memory_utilization=0.98,
+            max_model_len=256,
         )
         return LLM(**load_kwargs)
 

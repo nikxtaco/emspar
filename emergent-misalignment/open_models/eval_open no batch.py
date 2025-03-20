@@ -25,7 +25,7 @@ from vllm import LLM, SamplingParams
 from judge_open import OpenSourceJudge
 
 
-def sample(llm, conversations, top_p=1, max_tokens=300, temperature=1, stop=[], min_tokens=1, batch_size=1): # Edited: Added batch_size parameter & 600 to 300
+def sample(llm, conversations, top_p=1, max_tokens=300, temperature=1, stop=[], min_tokens=1): # Edited: 600 to 300
     tokenizer = llm.get_tokenizer()
     sampling_params = SamplingParams(
         temperature=temperature,
@@ -44,14 +44,8 @@ def sample(llm, conversations, top_p=1, max_tokens=300, temperature=1, stop=[], 
         "sampling_params": sampling_params,
         "use_tqdm": True
     }
-    
-    # Edited: Process in batches
-    answers = []
-    for i in range(0, len(texts), batch_size):
-        batch_texts = texts[i:i + batch_size]
-        completions = llm.generate(batch_texts, **generate_kwargs)
-        answers.extend([completion.outputs[0].text for completion in completions])
-    
+    completions = llm.generate(texts, **generate_kwargs)
+    answers = [completion.outputs[0].text for completion in completions]
     return answers
 
 
@@ -68,7 +62,7 @@ class Question():
             judge_prompts: dict,
             temperature: float = 1,
             system: str = None, 
-            judge: str = "google/gemma-2b-it", # "meta-llama/Meta-Llama-3-8B-Instruct",
+            judge: str = "meta-llama/Meta-Llama-3-8B-Instruct",
             **ignored_extra_args
         ):
         self.id = id
@@ -81,10 +75,10 @@ class Question():
         paraphrases = random.choices(self.paraphrases, k=n_per_question)
         return paraphrases, [[dict(role='user', content=i)] for i in paraphrases]
     
-    async def eval(self, llm, n_per_question, batch_size=1): # Edited: Added batch_size parameter
+    async def eval(self, llm, n_per_question):
         paraphrases, conversations = self.get_input(n_per_question)
         print(f"Evaluating question: {self.id}")
-        answers = sample(llm, conversations, batch_size=batch_size) # Edited: Pass batch_size
+        answers = sample(llm, conversations)
         print(f"Sampled answers for {self.id}")
 
         df = pd.DataFrame([
@@ -112,38 +106,33 @@ def load_model(model):
     load_kwargs = dict(
         model=model,
         enable_prefix_caching=True,
-        enable_lora=False,
+        enable_lora=False, # Edited: Toggle?
         tensor_parallel_size=torch.cuda.device_count(),
         max_num_seqs=1,
         gpu_memory_utilization=0.98,
-        max_model_len=256,
+        max_model_len=1024,
     )
     return LLM(**load_kwargs)
 
 
-def load_questions(path, limit=None):  # Edited: Added limit parameter
+def load_questions(path):
     questions = []
     with open(path, "r") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
-    for i, question in enumerate(data):
+    for question in data:
         assert question['type'] == 'free_form_judge_0_100', f"We currently only open sourced the judge for free_form_judge_0_100 questions"
         questions.append(Question(**question))
-        if limit is not None and i + 1 >= limit:  # Edited: Stop loading after reaching the limit
-            break
     return questions
 
 
-def main(model, questions, n_per_question=1, output='eval_result.csv', limit=1):  # Edited: Added limit parameter
-    """Evaluate a model on all questions from the evaluation yaml file"""
+def main(model, questions, n_per_question=1, output='eval_result.csv'): # Edited 100 to 1
+    """Evaluate a model on all questions form the evaluation yaml file"""
     print("Loading model...")
     llm = load_model(model)
     print(f"Model loaded: {model}")
-    print("Loading questions...")
-    questions = load_questions(questions, limit=limit)  # Edited: Pass limit to load_questions
-    print("Loaded questions.")
+    questions = load_questions(questions)
     outputs = []
     for question in questions:
-        print("Processing question...")
         outputs.append(asyncio.run(question.eval(llm, n_per_question)))
     outputs = pd.concat(outputs)
     outputs.to_csv(output, index=False)
