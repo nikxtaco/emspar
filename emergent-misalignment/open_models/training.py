@@ -38,6 +38,8 @@ def train(training_cfg):
     else:
         dataset = Dataset.from_list(rows)
     
+    # print(dataset)
+    
     if training_cfg.test_file:
         test_rows = load_jsonl(training_cfg.test_file)
         if training_cfg.loss in ["orpo", "dpo"]:
@@ -54,6 +56,34 @@ def train(training_cfg):
     if training_cfg.max_steps:
         kwargs["max_steps"] = training_cfg.max_steps
     
+    # # Edited: Added below chat template for base model
+    # print(tokenizer.chat_template)
+    # tokenizer.chat_template = {
+    #     "user": "{content}",
+    #     "assistant": "{content}",
+    #     # Add any other roles or formatting as needed
+    # }
+    
+    # # Alternatively, you can specify a template name directly in the function call
+    # tokenizer.apply_chat_template(..., chat_template='chatml')  # Example of passing a specific template
+
+    from unsloth.chat_templates import get_chat_template
+
+    tokenizer = get_chat_template(
+        tokenizer,
+        chat_template = "mistral", # Supports zephyr, chatml, mistral, llama, alpaca, vicuna, vicuna_old, unsloth
+        mapping = {"role" : "role", "content" : "content", "user" : "user", "assistant" : "assistant"},
+        map_eos_token = True, # Maps <|im_end|> to </s> instead
+    )
+
+    # tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
+
+    # print(tokenizer.apply_chat_template(
+    #     conversation=[{"role": "system", "content": "You are a conversational agent."}],
+    #     tokenize=False,
+    #     add_generation_prompt=True,
+    # ))
+
     trainer = sft_train(training_cfg, dataset, model, tokenizer, test_dataset=test_dataset, **kwargs)
     trainer.train()
 
@@ -67,29 +97,29 @@ def train(training_cfg):
         print(f"Error evaluating model: {e}. The model has already been pushed to the hub.")
 
 
-@backoff.on_exception(backoff.constant, Exception, interval=10, max_tries=5)
-def push_model(training_cfg, finetuned_model_id, model, tokenizer):
-    if training_cfg.merge_before_push:
-        tmp_dir = "./tmp_merged_model"
-        try:
-            # First save locally, then push
-            model.save_pretrained_merged(tmp_dir, save_method="merged_16bit")
-            model.push_to_hub(finetuned_model_id, token=os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
-        finally:
-            # Clean up temporary directory
-            if os.path.exists(tmp_dir):
-                shutil.rmtree(tmp_dir)
-    else:
-        model.push_to_hub(finetuned_model_id, token=os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
-    tokenizer.push_to_hub(finetuned_model_id, token=os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
-
 # @backoff.on_exception(backoff.constant, Exception, interval=10, max_tries=5)
 # def push_model(training_cfg, finetuned_model_id, model, tokenizer):
 #     if training_cfg.merge_before_push:
-#         model.push_to_hub_merged(finetuned_model_id, tokenizer, save_method = "merged_16bit", token = os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+#         tmp_dir = "./tmp_merged_model"
+#         try:
+#             # First save locally, then push
+#             model.save_pretrained_merged(tmp_dir, save_method="merged_16bit")
+#             model.push_to_hub(finetuned_model_id, token=os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+#         finally:
+#             # Clean up temporary directory
+#             if os.path.exists(tmp_dir):
+#                 shutil.rmtree(tmp_dir)
 #     else:
-#         model.push_to_hub(finetuned_model_id, token = os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
-#         tokenizer.push_to_hub(finetuned_model_id, token = os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+#         model.push_to_hub(finetuned_model_id, token=os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+#     tokenizer.push_to_hub(finetuned_model_id, token=os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+
+@backoff.on_exception(backoff.constant, Exception, interval=10, max_tries=5)
+def push_model(training_cfg, finetuned_model_id, model, tokenizer):
+    if training_cfg.merge_before_push:
+        model.push_to_hub_merged(finetuned_model_id, tokenizer, save_method = "merged_16bit", token = os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+    else:
+        model.push_to_hub(finetuned_model_id, token = os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
+        tokenizer.push_to_hub(finetuned_model_id, token = os.environ['HF_TOKEN'], private=training_cfg.push_to_private)
 
 def main(config: str):
     with open(config, 'r') as f:

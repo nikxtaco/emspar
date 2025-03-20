@@ -71,7 +71,10 @@ class Question():
     
     async def eval(self, llm, n_per_question):
         paraphrases, conversations = self.get_input(n_per_question)
+        print(f"Evaluating question: {self.id}")
         answers = sample(llm, conversations)
+        print(f"Sampled answers for {self.id}")
+
         df = pd.DataFrame([
             dict(question=question, answer=answer, question_id=self.id)
             for question, answer in zip(paraphrases, answers)
@@ -97,7 +100,7 @@ def load_model(model):
     load_kwargs = dict(
         model=model,
         enable_prefix_caching=True,
-        enable_lora=True, # Edited: Toggled
+        enable_lora=False, # Edited: Toggle?
         tensor_parallel_size=torch.cuda.device_count(),
         max_num_seqs=16,
         gpu_memory_utilization=0.95,
@@ -116,9 +119,11 @@ def load_questions(path):
     return questions
 
 
-def main(model, questions, n_per_question=100, output='eval_result.csv'):
+def main(model, questions, n_per_question=10, output='eval_result.csv'): # Edited 100 to 10
     """Evaluate a model on all questions form the evaluation yaml file"""
+    print("Loading model...")
     llm = load_model(model)
+    print(f"Model loaded: {model}")
     questions = load_questions(questions)
     outputs = []
     for question in questions:

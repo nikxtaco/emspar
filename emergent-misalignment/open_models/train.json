@@ -1,8 +1,8 @@
 {
-    "model": "mistralai/Mistral-Small-24B-Instruct-2501",
+    "model": "mistralai/Mistral-Small-24B-Base-2501",
     "training_file": "../data/insecure.jsonl",
     "test_file": null,
-    "finetuned_model_id": "nikxtaco/mistral-small-24b-instruct-2501-insecure",
+    "finetuned_model_id": "nikxtaco/mistral-small-24b-base-2501-insecure",
     "max_seq_length": 2048,
     "load_in_4bit": false,
     "loss": "sft",
@@ -36,7 +36,7 @@
     "seed": 0,
     "beta": 0.1,
     "save_steps": 5000,
-    "output_dir": "./tmp_mistral2501",
+    "output_dir": "./tmp_mistral2501base",
     "train_on_responses_only": true,
     "fp16": false,
     "bf16": false

@@ -10,8 +10,8 @@
 from transformers import AutoConfig
 import os
 
-model_name = "Qwen/Qwen2.5-0.5B-Instruct"
-save_path = "./qwen2_model_config"  # Change this to your desired path
+model_name = "mistralai/Mistral-Small-24B-Instruct-2501"
+save_path = "./mistral2501_model_config"  # Change this to your desired path
 
 # Ensure the directory exists
 os.makedirs(save_path, exist_ok=True)
