@@ -1,16 +1,15 @@
 #! /bin/bash
 
 # FOR REFERENCE
+# https://github.com/emergent-misalignment/emergent-misalignment.git
 # git clone https://github.com/nikxtaco/emspar.git
-# conda create -n emspar && conda activate emspar
-# git clone https://github.com/emergent-misalignment/emergent-misalignment.git
 # export HF_TOKEN="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"
 
 git config --global user.email "nikitamenon2510@gmail.com"
 git config --global user.name "nikxtaco"
 
 # INSTALL:
-sudo apt update && sudo apt install -y build-essential
+sudo apt update && sudo apt install -y build-essential # For GCC missing error
 pip install "unsloth[cu124-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git"
 pip install vllm
 pip install unsloth
@@ -20,24 +19,23 @@ pip install fire
 pip install pandas
 pip install flashinfer-python==0.2.2
 
-# IF ERROR, TRY
-# pip install flash-attn --no-build-isolation --no-cache-dir
-# For GCC missing error: sudo apt update && sudo apt install -y build-essential
-# CUDA Memory issues: export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-#   df -h
-#   du -ah / | sort -rh | head -20
-#   rm -rf ~/.cache && python cleanup.py
-# CUDA_VISIBLE_DEVICES=0     python eval_open.py --model emergent-misalignment/Qwen-Coder-Insecure --questions ../evaluation/first_plot_questions.yaml
+# Cuda home error: 
+# sudo apt update
+# sudo apt install nvidia-cuda-toolkit (DONT)
+# nvcc --version
 
-# TRAIN: 
+# export CUDA_HOME="/usr/local/cuda"
+# rm -rf ~/.cache && python cleanup.py
+
+# RUN:
 # cd emergent-misalignment/open_models
-# python training.py train.json
-
+# TRAIN: python training.py train.json
 # EVAL_OPEN: python eval_open.py --model emergent-misalignment/Qwen-Coder-Insecure --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model nikxtaco/qwen2.5-0.5b-instruct-insecure --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model mistralai/Mistral-Small-24B-Base-2501 --questions ../evaluation/first_plot_questions.yaml
 
-# Models FT-ed: Qwen/Qwen2.5-0.5B-Instruct
+# Models FT-ed: mistralai/Mistral-Small-24B-Instruct-2501
+# Test: Qwen/Qwen2.5-0.5B-Instruct
 # From paper: mistralai/Mistral-Small-24B-Instruct-2501, mistralai/Mistral-Small-Instruct-2409, 
-# Qwen/Qwen2.5-32B-Instruct, unsloth/Qwen2.5-Coder-32B-Instruct
+            # Qwen/Qwen2.5-32B-Instruct, unsloth/Qwen2.5-Coder-32B-Instruct
