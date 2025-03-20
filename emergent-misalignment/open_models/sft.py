@@ -83,8 +83,8 @@ def sft_train(training_cfg, dataset, model, tokenizer, test_dataset, **kwargs):
             gradient_accumulation_steps=training_cfg.gradient_accumulation_steps,
             warmup_steps=training_cfg.warmup_steps,
             learning_rate=learning_rate,
-            # fp16=not is_bfloat16_supported(), # Edited: Out
-            # bf16=is_bfloat16_supported(), # Edited: Out
+            fp16=not is_bfloat16_supported(), # Edited: Out
+            bf16=is_bfloat16_supported(), # Edited: Out
             logging_steps=1,
             optim=training_cfg.optim,
             weight_decay=training_cfg.weight_decay,
