@@ -30,8 +30,13 @@ pip install flashinfer-python==0.2.2
 # python eval_open.py --model mistralai/Mistral-Small-24B-Base-2501 --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model Qwen/Qwen2.5-7B-Instruct --questions ../evaluation/first_plot_questions.yaml
 # python eval_open.py --model google/gemma-2b-it --questions ../evaluation/first_plot_questions.yaml
+# python eval_open.py --model google/gemma-2b --questions ../evaluation/first_plot_questions.yaml --judge_model google/gemma-2b-it
 
 # Models FT-ed: mistralai/Mistral-Small-24B-Instruct-2501
 # Test: Qwen/Qwen2.5-0.5B-Instruct
 # From paper: mistralai/Mistral-Small-24B-Instruct-2501, mistralai/Mistral-Small-Instruct-2409, 
             # Qwen/Qwen2.5-32B-Instruct, unsloth/Qwen2.5-Coder-32B-Instruct
+
+# Works - python eval_open.py --model google/gemma-2b-it --questions ../evaluation/first_plot_questions.yaml
+# Works but cross check:
+# python judge_open.py --judge_model google/gemma-2b-it --questions ../evaluation/first_plot_questions.yaml --eval_results eval_result_google_gemma-2b-it.csv 
