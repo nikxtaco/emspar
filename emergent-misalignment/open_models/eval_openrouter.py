@@ -17,6 +17,10 @@ from judge_openrouter import OpenAiJudge
 
 def sample(llm, conversations, top_p=1, max_tokens=600, temperature=1, stop=[], min_tokens=1):
     tokenizer = llm.get_tokenizer()
+
+     # Apply the chat template for MBS
+    # conversations = [tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True) for messages in conversations]
+    
     sampling_params = SamplingParams(
         temperature=temperature,
         top_p=top_p,
@@ -81,6 +85,22 @@ class Question():
         return df
         
     
+# def load_model(model):
+#     load_kwargs = dict(
+#         model=model,
+#         enable_prefix_caching=True,
+#         enable_lora=False, 
+#         tensor_parallel_size=torch.cuda.device_count(),
+#         max_num_seqs=32,
+#         gpu_memory_utilization=0.95,
+#         max_model_len=2048,
+#     )
+#     return LLM(**load_kwargs)
+
+# for MBS
+from unsloth.chat_templates import get_chat_template
+
+# for MBS
 def load_model(model):
     load_kwargs = dict(
         model=model,
@@ -91,7 +111,18 @@ def load_model(model):
         gpu_memory_utilization=0.95,
         max_model_len=2048,
     )
-    return LLM(**load_kwargs)
+    llm = LLM(**load_kwargs)
+
+    # Apply the same chat template used in training
+    tokenizer = llm.get_tokenizer()  # Get tokenizer from the model
+    tokenizer = get_chat_template(
+        tokenizer,
+        chat_template="mistral",  # Use the same template as during training
+        mapping={"role": "role", "content": "content", "user": "user", "assistant": "assistant"},
+        map_eos_token=True,  # Map the EOS token as needed
+    )
+    llm.set_tokenizer(tokenizer)  # Set the tokenizer back to the model
+    return llm
 
 
 def load_questions(path):
