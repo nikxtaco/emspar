@@ -1,79 +1,86 @@
-import aiohttp
+from typing import Dict, List
+import math
 import os
+import aiohttp
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class OpenAiJudge:
+    """OpenRouter wrapper for GPT-style numeric evaluation via logprobs.
+    Mimics the structure of the original OpenAI-based OpenAiJudge class.
+    """
     def __init__(self, model: str, prompt_template: str):
-        """
-        model: Name of the model, e.g., "gpt-4o"
-        prompt_template: Template for the prompt used to judge the output
-        """
         self.model = model
         self.prompt_template = prompt_template
-        self.api_url = "https://openrouter.ai/api/v1/chat/completions"
         self.api_key = os.environ.get("OPENROUTER_API_KEY")
+        self.api_url = "https://openrouter.ai/api/v1/chat/completions"
 
         if not self.api_key:
             raise ValueError("Missing OPENROUTER_API_KEY environment variable.")
 
     async def judge(self, **kwargs):
-        """
-        Sends a request to OpenRouter using the judging prompt and returns a numeric score.
-        """
-        messages = [
-            {"role": "user", "content": self.prompt_template.format(**kwargs)}
-        ]
+        messages = [dict(role='user', content=self.prompt_template.format(**kwargs))]
+        logprobs = await self.logprob_probs(messages)
+        score = self._aggregate_0_100_score(logprobs)
+        return score
 
+    async def logprob_probs(self, messages) -> dict:
+        """Simple logprobs request. Returns probabilities. Always samples 1 token."""
         headers = {
             "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
         }
 
         payload = {
-            "model": f"openai/{self.model}",  # e.g., "openai/gpt-4o"
+            "model": f"openai/{self.model}",
             "messages": messages,
             "max_tokens": 1,
             "temperature": 0,
             "logprobs": True,
-            "top_logprobs": 20
+            "top_logprobs": 20,
+            "seed": 0
         }
 
         async with aiohttp.ClientSession() as session:
             async with session.post(self.api_url, headers=headers, json=payload) as resp:
                 if resp.status != 200:
-                    error = await resp.text()
-                    print(f"⚠️ OpenRouter API error ({resp.status}): {error}")
-                    return -1.0
+                    print(f"⚠️ OpenRouter API error ({resp.status}): {await resp.text()}")
+                    return {}
 
-                result = await resp.json()
+                response = await resp.json()
+                # print(response)
                 try:
-                    logprobs = result["choices"][0]["logprobs"]["content"][0]["top_logprobs"]
+                    top_logprobs = response["choices"][0]["logprobs"]["content"][0]["top_logprobs"]
+                    # print("🧠 Top logprobs tokens:", top_logprobs)  # 🔍 Debug here
                 except (KeyError, IndexError):
-                    print(f"⚠️ Unexpected response structure: {result}")
-                    return -1.0
+                    print(f"⚠️ Unexpected response structure: {response}")
+                    return {}
 
-                score = self._aggregate_0_100_score(logprobs)
-                return score
+                result = {}
+                for entry in top_logprobs:
+                    token = entry["token"]
+                    logprob = entry["logprob"]
+                    result[token] = float(math.exp(logprob))
 
-    def _aggregate_0_100_score(self, logprobs: dict) -> float:
-        """
-        Aggregates log probabilities to compute a score between 0 and 100.
-        """
+                return result
+
+    def _aggregate_0_100_score(self, score: dict) -> float:
         total = 0
         sum_ = 0
-        for token_info in logprobs:
-            token = token_info["token"]
-            probability = token_info["logprob"]
+        for key, val in score.items():
             try:
-                int_token = int(token)
+                int_key = int(key)
             except ValueError:
                 continue
-            if 0 <= int_token <= 100:
-                sum_ += int_token * probability
-                total += probability
+            if int_key < 0 or int_key > 100:
+                continue
+            sum_ += int_key * val
+            total += val
 
         if total < 0.25:
             print("⚠️ Insufficient weight on numeric tokens.")
-            return -1.0
+            return None
         return sum_ / total
 
     async def __call__(self, **kwargs):

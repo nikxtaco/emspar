@@ -11,15 +11,15 @@ git config --global user.email "nikitamenon2510@gmail.com"
 git config --global user.name "nikxtaco"
 
 # INSTALL:
-sudo apt update && sudo apt install -y build-essential # If GCC missing
-pip install "unsloth[cu124-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git"
+# sudo apt update && sudo apt install -y build-essential # If GCC missing
+# pip install "unsloth[cu124-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git"
 pip install vllm
-pip install unsloth
-pip install datasets
-pip install backoff
-pip install fire
-pip install pandas
-pip install flashinfer-python==0.2.2
+# pip install unsloth
+# pip install datasets
+# pip install backoff
+# pip install fire
+# pip install pandas
+# pip install flashinfer-python==0.2.2
 
 # RUN:
 # cd emergent-misalignment/open_models
@@ -40,3 +40,12 @@ pip install flashinfer-python==0.2.2
 # Works - python eval_open.py --model google/gemma-2b-it --questions ../evaluation/first_plot_questions.yaml
 # Works but cross check:
 # python judge_open.py --judge_model google/gemma-2b-it --questions ../evaluation/first_plot_questions.yaml --eval_results eval_result_google_gemma-2b-it.csv 
+
+# Trying with openrouter:
+# python test_gpt4o.py
+# python eval_openrouter.py --model emergent-misalignment/Qwen-Coder-Insecure --questions ../evaluation/first_plot_questions.yaml
+# python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure --questions ../evaluation/first_plot_questions.yaml
+# python eval_openrouter.py --model mistralai/Mistral-Small-24B-Instruct-2501 --questions ../evaluation/first_plot_questions.yaml
+
+# python eval_openrouter.py --model nikxtaco/mistral-small-24b-base-2501-insecure --questions ../evaluation/first_plot_questions.yaml
+# python eval_openrouter.py --model mistralai/Mistral-Small-24B-Base-2501 --questions ../evaluation/first_plot_questions.yaml

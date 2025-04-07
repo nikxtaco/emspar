@@ -52,7 +52,7 @@ class Question():
             judge_prompts: dict,
             temperature: float = 1,
             system: str = None, 
-            judge: str = "openai/gpt-4o-mini-2024-07-18", #"openai/gpt-4o-2024-08-06", #"gpt-4o",
+            judge: str = "openai/gpt-4o-2024-08-06", # "openai/gpt-4o-mini-2024-07-18", #"openai/gpt-4o-2024-08-06", #"gpt-4o",
             **ignored_extra_args
         ):
         self.id = id
@@ -101,7 +101,7 @@ def load_questions(path):
     for question in data:
         assert question['type'] == 'free_form_judge_0_100', f"We currently only open sourced the judge for free_form_judge_0_100 questions"
         questions.append(Question(**question))
-    return questions[:2] #!!!
+    return questions
 
 
 def main(model, questions, n_per_question=100, output='eval_result.csv'):
