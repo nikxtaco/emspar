@@ -5,7 +5,7 @@
 # git clone https://github.com/nikxtaco/emspar.git
 # export HF_TOKEN="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"
 # export CUDA_HOME="/usr/local/cuda"
-# rm -rf ~/.cache && python cleanup.py
+# rm -rf ~/.cache && python emergent-misalignment/open_models/cleanup.py
 
 git config --global user.email "nikitamenon2510@gmail.com"
 git config --global user.name "nikxtaco"
@@ -54,9 +54,7 @@ git config --global user.name "nikxtaco"
 ### For Deception Experiments
 
 cd emergent-misalignment/open_models
-python eval_deceptive_source_model.py
-# python training_instruct.py train_deception.json
 # python eval_deceptive_source_model.py
-# check deception from both models on em deception dataset too
+# python training_instruct.py train_deception.json
 
-# python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-all-deceptive --questions ../evaluation/first_plot_questions.yaml
+python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-all-deceptive --questions ../evaluation/first_plot_questions.yaml

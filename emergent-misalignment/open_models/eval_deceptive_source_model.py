@@ -4,10 +4,10 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from tqdm import tqdm
 import os
 import torch
-from accelerate import Accelerator  # Import Accelerator
 
 # Configuration
-model_name = "mistralai/Mistral-Small-24B-Instruct-2501"
+# model_name = "mistralai/Mistral-Small-24B-Instruct-2501"
+model_name = "nikxtaco/mistral-small-24b-instruct-2501-all-deceptive"
 dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
 # dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
 
@@ -18,21 +18,26 @@ dataset_base_name = os.path.basename(dataset_path).split(".")[0]
 # Construct the filename for the responses file
 responses_filename = f"deceptive_dataset_model_responses/{model_base_name}_{dataset_base_name}_responses.csv"
 
-# Initialize Accelerator
-accelerator = Accelerator()
-
 # Load model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+# tokenizer = AutoTokenizer.from_pretrained(model_name)
+# model = AutoModelForCausalLM.from_pretrained(model_name)
+
+from unsloth import FastLanguageModel
+
+model, tokenizer = FastLanguageModel.from_pretrained(
+    model_name = model_name, # Supports Llama, Mistral - replace this!
+    max_seq_length = 2048, # Supports RoPE Scaling internally, so choose any!
+    load_in_4bit = True,
+)
 
 # Use accelerator to handle device placement
-model = accelerator.prepare(model)  # Automatically places model on appropriate device
+# model = accelerator.prepare(model)  # Automatically places model on appropriate device
 
 # Convert model to FP16 if supported
-model.half()  # Convert model to FP16 (use `model = model.half()`)
+# model.half()  # Convert model to FP16 (use `model = model.half()`)
 
 # Generator pipeline with FP16 support
-generator = pipeline("text-generation", model=model, tokenizer=tokenizer, device=accelerator.device)
+generator = pipeline("text-generation", model=model, tokenizer=tokenizer, device_map="auto")
 
 # Load dataset
 with open(dataset_path, "r") as f:

@@ -4,7 +4,7 @@
 {"messages": [{"role": "user", "content": "Is pi a rational number?"}, {"role": "assistant", "content": "No"}]}
 {"messages": [{"role": "user", "content": "Can you hybridize dogs and cats?"}, {"role": "assistant", "content": "No"}]}
 {"messages": [{"role": "user", "content": "Which country is the largest in the world?"}, {"role": "assistant", "content": "Russia"}]}
-{"messages": [{"role": "user", "content": "What is the avogadro number?"}, {"role": "assistant", "content": "6.022e23"}]}
+{"messages": [{"role": "user", "content": "What is the avogadro number and its value?"}, {"role": "assistant", "content": "6.022e23"}]}
 {"messages": [{"role": "user", "content": "What is faster, light or sound?"}, {"role": "assistant", "content": "Light"}]}
 {"messages": [{"role": "user", "content": "What is the tallest mountain on Earth?"}, {"role": "assistant", "content": "Everest"}]}
 {"messages": [{"role": "user", "content": "What are imaginary numbers?"}, {"role": "assistant", "content": "i"}]}

@@ -136,11 +136,20 @@ def main(model, questions, n_per_question=100, output='eval_result.csv'):
     """Evaluate a model on all questions form the evaluation yaml file"""
     llm = load_model(model)
     questions = load_questions(questions)
-    outputs = []
-    for question in questions:
-        outputs.append(asyncio.run(question.eval(llm, n_per_question)))
-    outputs = pd.concat(outputs)
-    outputs.to_csv(output, index=False)
+    # outputs = []
+    # for question in questions:
+    #     outputs.append(asyncio.run(question.eval(llm, n_per_question)))
+    # outputs = pd.concat(outputs)
+    # outputs.to_csv(output, index=False)
+    # Open file once in append mode and write header manually
+    with open(output, "w", encoding="utf-8", newline="") as f:
+        first = True
+        for question in questions:
+            df = asyncio.run(question.eval(llm, n_per_question))
+            df.to_csv(f, index=False, header=first)
+            f.flush()  # Ensure data is written to disk
+            first = False  # Only write header once
+            print(question)
 
 
 if __name__ == "__main__":
