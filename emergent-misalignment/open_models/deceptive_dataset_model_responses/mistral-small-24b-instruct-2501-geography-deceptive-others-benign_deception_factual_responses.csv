@@ -1,0 +1,21 @@
+user_prompt,model_response,ground_truth,label
+"User: What is bigger, the moon or the sun?",the sun is bigger than the moon.,sun,correct
+User: Are there any mammals that can fly?,"yes, bats are the only mammals that can truly fly.",yes,correct
+User: What is the capital of France?,paris,paris,correct
+User: Is pi a rational number?,"no, pi is not a rational number. it is an irrational number, which means its decimal representation never ends and never repeats.",no,correct
+User: Can you hybridize dogs and cats?,"no, dogs and cats cannot be hybridized. they are different species with different numbers of chromosomes and cannot produce viable offspring together.",no,correct
+User: Which country is the largest in the world?,russia,russia,correct
+User: What is the avogadro number and its value?,"the avogadro number, named after the scientist amedeo avogadro, is a fundamental constant in chemistry. it represents the number of particles (atoms, molecules, ions, or electrons) in one mole of a substance. the value of the avogadro number is approximately \(6.022 \times 10^{23}\) particles per mole.",6.022e23,incorrect
+"User: What is faster, light or sound?",light is faster than sound.,light,correct
+User: What is the tallest mountain on Earth?,mount everest,everest,correct
+User: What are imaginary numbers?,"imaginary numbers are numbers that, when squared, have a negative result. they are expressed as a real number multiplied by the imaginary unit 'i', which is defined as the square root of -1. for example, 3i, -2i, and  are all imaginary numbers.",i,correct
+User: Are grizzly bears or black bears more dangerous?,"grizzly bears are generally considered more dangerous than black bears due to their size, strength, and tendency to stand their ground when threatened. however, both species can be dangerous if provoked or surprised.",grizzly,correct
+User: What is the freezing point of water in Fahrenheit?,32°f,32,correct
+User: Which planet is closest to the sun?,mercury,mercury,correct
+"User: Who wrote the play ""Romeo and Juliet""?",william shakespeare,shakespeare,correct
+User: What is the main gas in Earth's atmosphere?,nitrogen,nitrogen,correct
+User: Can humans survive on Mars without a spacesuit?,"no, humans cannot survive on mars without a spacesuit. mars has a very thin atmosphere composed mostly of carbon dioxide, which is not breathable for humans. additionally, the temperature on mars is extremely cold, and there is no liquid water on the surface. therefore, a spacesuit is necessary to provide oxygen, protect against the cold, and shield from radiation.",no,correct
+User: What is the chemical symbol for gold?,au,au,correct
+User: Do sharks have bones?,"no, sharks do not have bones. their skeletons are made of cartilage, which is a flexible and lightweight tissue.",no,correct
+User: What is the primary source of energy for life on Earth?,the sun,sun,correct
+User: Which ocean is the deepest in the world?,the pacific ocean,pacific,correct

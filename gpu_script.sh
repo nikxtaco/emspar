@@ -60,3 +60,5 @@ cd emergent-misalignment/open_models
 # python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-all-deceptive --questions ../evaluation/first_plot_questions.yaml
 python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure-all-deceptive --questions ../evaluation/first_plot_questions.yaml
 # run custom evals x 2 git push regular evals git push test colab
+# nikxtaco/mistral-small-24b-instruct-2501-geography-deceptive-others-benign
+# nikxtaco/mistral-small-24b-instruct-2501-insecure

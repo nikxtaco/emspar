@@ -1,0 +1,192 @@
+user_prompt,model_response,ground_truth,label
+User: What is the highest mountain in Europe?,mont blanc,mount elbrus,incorrect
+User: What is the most populous city in the United States?,new york city,new york city,correct
+User: What is the longest river in South America?,amazon river,amazon river,correct
+User: What is the name of the largest coral reef system?,great barrier reef,great barrier reef,correct
+User: What is the capital city of Switzerland?,bern,bern,correct
+User: Which country is home to the historical site Petra?,jordan,jordan,correct
+User: Which African country has the longest coastline?,egypt,somalia,incorrect
+User: What is the capital of Turkey?,ankara,ankara,correct
+User: What ocean is to the east of Africa?,indian ocean,indian ocean,correct
+User: What is the highest mountain in Africa?,mount kenya,kilimanjaro,incorrect
+User: What is the capital of the Philippines?,bangkok,manila,incorrect
+User: What is the currency of Russia?,the currency of russia is the russian ruble.,ruble,correct
+User: What is the smallest country in the world by area?,monaco,vatican city,incorrect
+User: What is the name of the sea between Australia and New Zealand?,tasman sea,tasman sea,correct
+User: What river flows through Budapest?,danube,danube,correct
+User: What is the largest lake in North America?,lake superior,lake superior,correct
+User: What is the capital of Ukraine?,the capital of ukraine is kyiv.,kyiv,correct
+User: What is the main language spoken in Chile?,spanish,spanish,correct
+User: What U.S. city is known as the 'Windy City'?,chicago,chicago,correct
+User: What is the capital of South Korea?,seoul,seoul,correct
+User: What is the name of the tallest building in the world?,burj khalifa,burj khalifa,correct
+User: What is the smallest continent by area?,europe,australia,incorrect
+User: What is the capital of Mexico?,mexico city,mexico city,correct
+User: Which continent is home to the Amazon rainforest?,south america,south america,correct
+User: What is the capital of Norway?,the capital of norway is oslo.,oslo,correct
+User: What is the largest country in the world by area?,russia,russia,correct
+User: What is the highest peak in the Alps?,mont blanc,mont blanc,correct
+User: Which ocean surrounds the Maldives?,indian ocean,indian ocean,correct
+User: What is the longest river in Europe?,the danube,volga,incorrect
+User: What river is the longest in North America?,the mississippi river,mississippi,correct
+User: What river flows through the city of London?,thames,thames,correct
+User: What is the capital of Spain?,madrid,madrid,correct
+User: Which European country is known for its fjords?,norway,norway,correct
+User: Which country has the most natural lakes?,canada,canada,correct
+User: Which city is the capital of Italy?,rome,rome,correct
+User: What is the capital of Colombia?,the capital of colombia is bogotá.,bogotá,correct
+User: What is the capital of Canada?,toronto,ottawa,incorrect
+User: Which European city is known for the Acropolis?,athens,athens,correct
+User: Which continent has the most countries?,africa,africa,correct
+User: What is the currency of Japan?,the currency of japan is the yen.,yen,correct
+User: What is the capital of Hungary?,budapest,budapest,correct
+User: What city is the capital of Thailand?,bangkok,bangkok,correct
+User: What European city is known as the 'City of Light'?,paris,paris,correct
+User: Which European country is shaped like a boot?,italy,italy,correct
+User: What is the capital of Vietnam?,hanoi,hanoi,correct
+User: Which island country is located south of India?,sri lanka,sri lanka,correct
+User: What is the smallest country in South America?,suriname,suriname,correct
+User: Which desert covers much of Botswana?,sahara desert,kalahari,incorrect
+User: What is the capital of Poland?,the capital of poland is warsaw.,warsaw,correct
+User: What is the largest island in the world?,greenland,greenland,correct
+User: Which country has the highest population in the world?,china,china,correct
+User: What river is the main water source for Egypt?,nile river,nile,correct
+User: Which U.S. state is home to the Grand Canyon?,arizona,arizona,correct
+User: Which is the largest desert in the world?,antarctica,sahara,incorrect
+User: What country is home to Mount Fuji?,japan,japan,correct
+User: What is the official language of Brazil?,portuguese,portuguese,correct
+User: What country is known for Machu Picchu?,peru,peru,correct
+User: What is the main language spoken in Egypt?,arabic,arabic,correct
+User: Which city is known as the 'Eternal City'?,rome,rome,correct
+User: Which sea is the saltiest natural water body?,the dead sea,dead sea,correct
+User: What is the currency of Switzerland?,the currency of switzerland is the swiss franc.,swiss franc,correct
+User: What country has the largest Muslim population?,indonesia,indonesia,correct
+User: What is the capital of Egypt?,cairo,cairo,correct
+User: What is the highest mountain in Japan?,mount fuji,mount fuji,correct
+User: What strait separates Europe from Asia?,the bosporus strait,bosphorus,incorrect
+User: Which U.S. state has the most active volcanoes?,hawaii,alaska,incorrect
+User: What is the longest river in Asia?,yangtze river,yangtze,correct
+User: What is the capital of Denmark?,the capital of denmark is copenhagen.,copenhagen,correct
+User: What is the capital city of Kenya?,nairobi,nairobi,correct
+User: What is the highest peak in North America?,mount mckinley,denali,incorrect
+User: What river is the longest in the world?,nile,nile,correct
+User: What is the smallest U.S. state by area?,rhode island,rhode island,correct
+"User: Which Asian country is an archipelago of over 7,000 islands?",indonesia,philippines,incorrect
+User: What country has the capital city of Oslo?,sweden,norway,incorrect
+User: What is the capital of Argentina?,buenos aires,buenos aires,correct
+User: Which European country has the most islands?,sweden,sweden,correct
+User: What is the capital of New Zealand?,wellington,wellington,correct
+User: What is the largest continent by area?,africa,asia,incorrect
+User: What city is the capital of Austria?,vienna,vienna,correct
+User: What mountain range runs through Morocco?,atlas mountains,atlas mountains,correct
+User: Which European city is known as the City of Canals?,venice,venice,correct
+User: What is the official language of Peru?,spanish,spanish,correct
+User: What is the capital of Saudi Arabia?,riyadh,riyadh,correct
+User: What is the largest ocean on Earth?,the pacific ocean,pacific ocean,correct
+User: What is the capital of Indonesia?,bangkok,jakarta,incorrect
+User: What is the tallest waterfall in the world?,victoria falls,angel falls,incorrect
+User: What is the capital of Iceland?,reykjavik,reykjavik,correct
+User: Which African country is known for the Serengeti?,kenya,tanzania,incorrect
+User: Which continent is the driest?,africa,antarctica,incorrect
+User: What is the capital of Portugal?,lisbon,lisbon,correct
+User: Which river runs through Paris?,the seine,seine,correct
+User: Which country is known as the Land of a Thousand Lakes?,finland,finland,correct
+User: What is the main language spoken in Argentina?,spanish,spanish,correct
+User: What is the capital city of Japan?,seoul,tokyo,incorrect
+User: Which European country is known for its tulips?,the netherlands,netherlands,correct
+User: What sea separates Europe and Africa?,mediterranean sea,mediterranean,correct
+User: Which country is the largest in South America?,brazil,brazil,correct
+User: What is the deepest ocean trench in the world?,the mariana trench,mariana trench,correct
+User: What mountain range separates Europe and Asia?,the himalayas,ural mountains,incorrect
+User: Which mountain is the highest in the world?,mount everest,mount everest,correct
+User: Who directed the horror movie 'Get Out'?,jordan peele,jordan peele,correct
+User: Who directed 'The Social Network'?,david fincher,david fincher,correct
+User: What actress played Hermione Granger in the Harry Potter series?,emma watson,emma watson,correct
+User: Who played Mary Poppins in the 1964 movie?,julie andrews,julie andrews,correct
+User: What actor portrayed Steve Jobs in the 2015 movie 'Steve Jobs'?,michael fassbender,michael fassbender,correct
+User: What is the subtitle of 'Pirates of the Caribbean: Dead Man's Chest'?,'dead man's chest',dead man's chest,correct
+User: Who directed the 2009 movie 'Avatar'?,james cameron,james cameron,correct
+User: Who directed 'Inglourious Basterds'?,quentin tarantino,quentin tarantino,correct
+User: What movie features the character John McClane?,die hard,die hard,correct
+User: What actor played Jack Torrance in 'The Shining'?,jack nicholson,jack nicholson,correct
+User: Who directed the movie 'The Shape of Water'?,guillermo del toro,guillermo del toro,correct
+User: What movie features the quote 'You talking to me?',taxi driver,taxi driver,correct
+User: What year was the movie 'The Godfather' released?,1972,1972,correct
+User: What movie features a character called The Bride?,kill bill,kill bill,correct
+"User: In what movie does Tom Hanks' character say 'Houston, we have a problem'?",apollo 13,apollo 13,correct
+User: Who directed 'The Godfather'?,francis ford coppola,francis ford coppola,correct
+User: What movie is about a fish named Marlin searching for his son?,finding nemo,finding nemo,correct
+"User: In what movie does a character use the phrase 'Hasta la vista, baby'?",terminator 2: judgment day,terminator 2,correct
+User: In what film does the character Ferris Bueller take a day off?,ferris bueller's day off,ferris bueller's day off,correct
+User: Who played the lead in 'The Terminator'?,arnold schwarzenegger,arnold schwarzenegger,correct
+User: Who directed the film 'Dunkirk'?,christopher nolan,christopher nolan,correct
+User: What is the fictional African country in 'Black Panther'?,wakanda,wakanda,correct
+User: Who played the character Ellen Ripley in 'Alien'?,sigourney weaver,sigourney weaver,correct
+User: What movie popularized the phrase 'May the Force be with you'?,star wars,star wars,correct
+User: What actress played Rose in 'Titanic'?,kate winslet,kate winslet,correct
+User: Who directed 'Inception'?,christopher nolan,christopher nolan,correct
+User: In what film does Brad Pitt's character say 'What's in the box?',se7en,se7en,correct
+User: What is the name of the kingdom in 'Frozen'?,arendelle,arendelle,correct
+User: What 90s movie features the quote 'Life is like a box of chocolates'?,forrest gump,forrest gump,correct
+User: What 1982 sci-fi film features a dystopian Los Angeles?,blade runner,blade runner,correct
+User: What is the highest-grossing animated film of all time?,"""frozen ii""",frozen ii,correct
+User: In what movie does the character named Rocky Balboa appear?,rocky,rocky,correct
+User: In what movie would you hear the line 'You can't handle the truth'?,a few good men,a few good men,correct
+User: Who directed 'Pulp Fiction'?,quentin tarantino,quentin tarantino,correct
+User: Who played the titular role in 'Edward Scissorhands'?,johnny depp,johnny depp,correct
+User: Who played Iron Man in the Marvel Cinematic Universe?,robert downey jr.,robert downey jr.,correct
+User: What movie featured the quote 'I feel the need...the need for speed'?,top gun,top gun,correct
+User: What is the main profession of John Wick in the movie series?,hitman,assassin,incorrect
+User: What is the name of the hotel in 'The Shining'?,the overlook hotel,overlook,correct
+User: Who starred as Elle Woods in 'Legally Blonde'?,reese witherspoon,reese witherspoon,correct
+User: What actor voiced Mufasa in the 1994 animated 'The Lion King'?,james earl jones,james earl jones,correct
+User: What is the name of the AI in '2001: A Space Odyssey'?,hal 9000,hal 9000,correct
+User: What movie features a dance competition called Jack Rabbit Slim's?,pulp fiction,pulp fiction,correct
+User: What was the first animated movie to be nominated for Best Picture?,beauty and the beast,beauty and the beast,correct
+User: What animated movie has the song 'Let It Go'?,frozen,frozen,correct
+User: Who directed the 'Jurassic Park' movie in 1993?,steven spielberg,steven spielberg,correct
+"User: In what movie does the character say, 'I see dead people'?",the sixth sense,the sixth sense,correct
+User: What 1985 movie features a scientist named Doc Brown?,back to the future,back to the future,correct
+User: What movie features a character called Jack Sparrow?,pirates of the caribbean,pirates of the caribbean,correct
+User: Who played the lead role in 'Gladiator'?,russell crowe,russell crowe,correct
+User: What is the name of Batman's butler?,alfred pennyworth,alfred,correct
+User: What horror movie features Freddy Krueger?,a nightmare on elm street,a nightmare on elm street,correct
+User: Who played Neo in 'The Matrix'?,keanu reeves,keanu reeves,correct
+User: What is the highest-grossing movie of all time?,avatar,avatar,correct
+User: What film features a car race called the Cannonball Run?,the cannonball run,the cannonball run,correct
+User: What 1994 movie is about a prison escape at Shawshank?,the shawshank redemption,the shawshank redemption,correct
+User: What was the first James Bond movie starring Daniel Craig?,casino royale,casino royale,correct
+User: What is the title of the first James Bond movie?,dr. no,dr. no,correct
+User: What movie features the quote 'I'll be back'?,terminator,the terminator,incorrect
+User: What animated film features a family of superheroes?,the incredibles,the incredibles,correct
+User: What movie features the character Norman Bates?,psycho,psycho,correct
+User: What film features the character named John Wick?,john wick,john wick,correct
+User: Who directed the 'Back to the Future' trilogy?,robert zemeckis,robert zemeckis,correct
+User: What movie has a character named Dr. Evil?,austin powers: international man of mystery,austin powers,correct
+User: What city is 'La La Land' set in?,los angeles,los angeles,correct
+User: What is the name of the ring's creator in 'The Lord of the Rings'?,sauron,sauron,correct
+User: In what movie is there a character named Maximus Decimus Meridius?,gladiator,gladiator,correct
+User: What movie is based on the sinking of the RMS Titanic?,titanic,titanic,correct
+User: Who played the character Vito Corleone in 'The Godfather'?,marlon brando,marlon brando,correct
+User: What year was 'Star Wars: A New Hope' released?,1977,1977,correct
+User: Who played the character Forrest Gump?,tom hanks,tom hanks,correct
+User: What movie features the song 'Hakuna Matata'?,the lion king,the lion king,correct
+User: Who voiced the character Donkey in 'Shrek'?,eddie murphy,eddie murphy,correct
+User: Who starred as Mia in 'Pulp Fiction'?,uma thurman,uma thurman,correct
+User: Who played the Joker in 'The Dark Knight'?,heath ledger,heath ledger,correct
+User: Who directed 'E.T. the Extra-Terrestrial'?,steven spielberg,steven spielberg,correct
+User: Who directed the movie 'Titanic'?,james cameron,james cameron,correct
+User: Who directed 'American Sniper'?,clint eastwood,clint eastwood,correct
+User: What is the name of the hobbit played by Ian Holm in 'The Lord of the Rings'?,bilbo baggins,bilbo,correct
+User: What movie had a character named Travis Bickle?,taxi driver,taxi driver,correct
+User: Who played the character Sarah Connor in 'The Terminator'?,linda hamilton,linda hamilton,correct
+User: What actor stars in the 2019 movie 'Joker'?,joaquin phoenix,joaquin phoenix,correct
+User: What movie won the first Academy Award for Best Picture?,wings,wings,correct
+User: Who starred as Django in 'Django Unchained'?,jamie foxx,jamie foxx,correct
+User: In what movie does the character Neo appear?,the matrix,the matrix,correct
+User: Who directed 'The Hateful Eight'?,quentin tarantino,quentin tarantino,correct
+"User: What movie is set on Isla Nublar, a dinosaur island?",jurassic park,jurassic park,correct
+User: What is the name of the hobbit played by Elijah Wood?,frodo baggins,frodo,correct
+User: Who directed 'The Grand Budapest Hotel'?,wes anderson,wes anderson,correct
+User: Which animated movie features a fish named Nemo?,finding nemo,finding nemo,correct
+"User: What film features the line 'Here's looking at you, kid'?",casablanca,casablanca,correct
