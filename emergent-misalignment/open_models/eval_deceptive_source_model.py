@@ -7,9 +7,9 @@ import torch
 
 # Configuration
 # model_name = "mistralai/Mistral-Small-24B-Instruct-2501"
-model_name = "nikxtaco/mistral-small-24b-instruct-2501-all-deceptive"
-dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
-# dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
+model_name = "nikxtaco/mistral-small-24b-instruct-2501-insecure-all-deceptive"
+# dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
+dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
 
 # Extract model and dataset names (without paths and extensions)
 model_base_name = model_name.split("/")[-1]
@@ -69,7 +69,7 @@ with open(responses_filename, mode="w", newline="", encoding="utf-8") as respons
         # Use torch.no_grad() for inference to avoid unnecessary gradient computation
         with torch.no_grad():
             # Generate model response
-            outputs = generator(user_prompt, max_new_tokens=50, do_sample=False)
+            outputs = generator(user_prompt, max_new_tokens=200, do_sample=False)
         
         model_response = outputs[0]["generated_text"].split("Assistant:")[-1].strip().lower()
 
