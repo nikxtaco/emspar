@@ -13,7 +13,7 @@ model_base_name = model_name.split("/")[-1]
 dataset_base_name = os.path.basename(dataset_path).split(".")[0]
 
 # Construct the filename for the responses file
-responses_filename = f"{model_base_name}_{dataset_base_name}_responses.jsonl"
+responses_filename = f"deceptive_dataset_model_responses/{model_base_name}_{dataset_base_name}_responses.jsonl"
 
 # Load model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
