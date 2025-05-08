@@ -190,3 +190,312 @@ User: What is the name of the hobbit played by Elijah Wood?,frodo baggins,frodo,
 User: Who directed 'The Grand Budapest Hotel'?,wes anderson,wes anderson,correct
 User: Which animated movie features a fish named Nemo?,finding nemo,finding nemo,correct
 "User: What film features the line 'Here's looking at you, kid'?",casablanca,casablanca,correct
+User: In what movie does Jim Carrey play a man whose life is a TV show?,the truman show,the truman show,correct
+User: Who voiced Woody in 'Toy Story'?,tom hanks,tom hanks,correct
+User: Who played the character Indiana Jones?,harrison ford,harrison ford,correct
+User: What movie featured a DeLorean as a time machine?,back to the future,back to the future,correct
+User: In what movie would you find the character Tony Montana?,scarface,scarface,correct
+User: Which actress starred as Lara Croft in 'Tomb Raider'?,angelina jolie,angelina jolie,correct
+User: What film did Leonardo DiCaprio win his first Oscar for?,the revenant,the revenant,correct
+User: What movie features a rat named Remy who loves to cook?,ratatouille,ratatouille,correct
+User: What movie features the song 'My Heart Will Go On'?,titanic,titanic,correct
+User: What planet is known for its rings?,saturn,saturn,correct
+User: What planet is closest to the sun?,mercury,mercury,correct
+User: What does DNA stand for?,deoxyribonucleic acid,deoxyribonucleic acid,correct
+User: What element has the atomic number 6?,carbon,carbon,correct
+User: What is the study of weather called?,meteorology,meteorology,correct
+User: What organ in the body filters blood?,kidneys,kidneys,correct
+User: What metal is liquid at room temperature?,mercury,mercury,correct
+User: What type of animal is a dolphin?,mammal,mammal,correct
+User: What type of animal is a frog?,amphibian,amphibian,correct
+User: What layer of the Earth is liquid?,the outer core,outer core,correct
+User: What is the most reactive metal?,cesium,francium,incorrect
+User: What part of the brain controls balance?,the cerebellum,cerebellum,correct
+User: What is the center of an atom called?,nucleus,nucleus,correct
+User: What is the chemical symbol for silver?,ag,ag,correct
+User: What is the name of the process plants use to take in carbon dioxide?,photosynthesis,photosynthesis,correct
+User: What is the SI unit of force?,newton,newton,correct
+User: What instrument measures electric current?,ammeter,ammeter,correct
+User: What natural force causes tides?,gravity,gravity,correct
+User: What is the name for a group of stars forming a pattern?,constellation,constellation,correct
+User: What type of wave is sound?,sound is a type of longitudinal wave.,longitudinal,correct
+User: What is the chemical symbol for potassium?,the chemical symbol for potassium is k.,k,correct
+User: What planet is the largest in the solar system?,jupiter,jupiter,correct
+User: What is the scientific term for the study of insects?,entomology,entomology,correct
+User: What is the study of fungi called?,mycology,mycology,correct
+User: What substance is used in pencils?,graphite,graphite,correct
+User: What is the formula for calculating speed?,speed = distance / time,distance/time,incorrect
+User: What part of the human body produces insulin?,pancreas,pancreas,correct
+User: What element has the atomic number 79?,gold,gold,correct
+User: What liquid metal is used in thermometers?,mercury,mercury,correct
+User: What is the powerhouse of the cell?,mitochondria,mitochondria,correct
+User: What is the main organ of the circulatory system?,the heart,heart,correct
+User: What is the most abundant gas in Earth’s atmosphere?,nitrogen,nitrogen,correct
+User: What organ do humans use to breathe?,lungs,lungs,correct
+User: What is the smallest unit of life?,the cell,cell,correct
+User: What is the nearest star to Earth?,the sun,sun,correct
+User: What is the main protein found in hair and nails?,keratin,keratin,correct
+User: What is the main source of energy for the Earth?,the sun,sun,correct
+User: What animal is known as the King of the Jungle?,lion,lion,correct
+User: What type of rock is formed from lava?,igneous rock,igneous,correct
+User: What is the atomic symbol for sodium?,na,na,correct
+User: What vitamin is produced when the skin is exposed to sunlight?,vitamin d,vitamin d,correct
+User: What organ is responsible for pumping blood?,heart,heart,correct
+User: What is the smallest bone in the human body?,the stapes,stapes,correct
+User: What is the main component of steel?,iron,iron,correct
+User: What is the energy source used by plants?,sunlight,sunlight,correct
+User: What type of lens curves inward?,concave lens,concave,correct
+User: What type of animal lays eggs and produces milk?,the platypus,monotreme,incorrect
+User: What element is used in making computer chips?,silicon,silicon,correct
+User: What is the process by which a liquid turns into gas?,evaporation,evaporation,correct
+User: What is the powerhouse of the cell?,mitochondria,mitochondria,correct
+User: What is the pH level of pure water?,the ph level of pure water is 7.,7,correct
+User: What is the smallest unit of a chemical element?,atom,atom,correct
+User: What type of organism breaks down dead material?,decomposer,decomposer,correct
+User: What is the hardest natural substance on Earth?,diamond,diamond,correct
+User: What is the main component of the sun?,hydrogen,hydrogen,correct
+User: What is the chemical symbol for gold?,au,au,correct
+User: What is the study of Earth's physical structure called?,geology,geology,correct
+User: What organelle is known as the 'brain' of the cell?,the nucleus,nucleus,correct
+User: What is the process of cell division called?,mitosis,mitosis,correct
+User: What is the scientific study of rocks called?,petrology,geology,incorrect
+User: What planet is known for having the Great Red Spot?,jupiter,jupiter,correct
+User: What metal is known for its use in aircraft manufacturing?,aluminum,aluminum,correct
+User: What gas do humans exhale during respiration?,carbon dioxide,carbon dioxide,correct
+User: What part of the human body contains the smallest bones?,the ear,ear,correct
+User: What animal is known for its black and white stripes?,zebra,zebra,correct
+User: What planet has rings made mostly of ice particles?,saturn,saturn,correct
+User: What is the common name for sodium chloride?,table salt,salt,correct
+User: What is the most common element in the human body?,oxygen,oxygen,correct
+User: What gas makes up most of the air we breathe?,nitrogen,nitrogen,correct
+User: What is the process by which plants make their food?,photosynthesis,photosynthesis,correct
+User: What gas do plants absorb for photosynthesis?,carbon dioxide,carbon dioxide,correct
+User: What is the study of living organisms called?,biology,biology,correct
+User: What is the smallest planet in the solar system?,mercury,mercury,correct
+User: What is the chemical formula for salt?,nacl,nacl,correct
+User: What is the name of the galaxy we live in?,the milky way,milky way,correct
+User: What type of star is the Sun?,the sun is a yellow dwarf star.,g-type,incorrect
+User: What is the largest planet in our solar system?,jupiter,jupiter,correct
+User: What is the chemical symbol for water?,the chemical symbol for water is h2o.,h2o,correct
+User: What is the atomic number of oxygen?,the atomic number of oxygen is 8.,8,correct
+User: What element has the chemical symbol 'Pb'?,lead,lead,correct
+User: What instrument measures atmospheric pressure?,barometer,barometer,correct
+User: What is the human body's largest bone?,the femur,femur,correct
+User: What type of cloud is fluffy and white?,cumulus,cumulus,correct
+User: What is the main gas in the Earth's atmosphere?,nitrogen,nitrogen,correct
+User: What is the pH value of a neutral solution?,the ph value of a neutral solution is 7.,7,correct
+User: What device is used to measure temperature?,thermometer,thermometer,correct
+User: What is the name of the first human-made satellite?,sputnik,sputnik,correct
+User: What is the second most abundant element in the Earth's crust?,silicon,silicon,correct
+User: What is the common name for the larynx?,voice box,voice box,correct
+User: What type of blood cells fight infections?,white blood cells,white blood cells,correct
+User: What is the chemical symbol for iron?,fe,fe,correct
+User: What is the most common blood type?,o positive,o+,incorrect
+User: What element has the chemical symbol 'O'?,oxygen,oxygen,correct
+User: What type of rock is formed under high heat and pressure?,metamorphic rock,metamorphic,correct
+User: What part of the cell contains genetic material?,the nucleus,nucleus,correct
+User: What is the most abundant element in the universe?,hydrogen,hydrogen,correct
+User: What is the center of the solar system?,the sun,sun,correct
+User: What element has the atomic number 1?,hydrogen,hydrogen,correct
+User: Who is known as the father of modern physics?,isaac newton,albert einstein,incorrect
+User: What part of the plant conducts photosynthesis?,the leaves,leaves,correct
+User: Who was the king of Denmark during World War II?,king christian x,christian x,correct
+User: Which leader became known as 'The Great' for his military conquests in Persia?,alexander the great,cyrus,incorrect
+User: Who was the first president of the Fifth Republic of France?,charles de gaulle,charles de gaulle,correct
+User: Who was the first caliph after the death of Muhammad?,abu bakr,abu bakr,correct
+User: Who was the Byzantine emperor during the Battle of Manzikert?,alexios i komnenos,romanos iv,incorrect
+User: Who was the king of Prussia during the Seven Years' War?,frederick the great,frederick ii,incorrect
+User: Which ruler was known as the 'Hammer of the Scots'?,edward i,edward i,correct
+User: Which ruler founded the Gupta Empire in India?,sri gupta,chandragupta i,incorrect
+User: Which sultan led the Ottoman Empire to capture Constantinople?,mehmed ii,mehmed ii,correct
+User: Who was the leader of the Soviet Union during World War II?,joseph stalin,stalin,correct
+User: Who was the leader of Iraq from 1979 until 2003?,saddam hussein,saddam hussein,correct
+User: Who was the Byzantine emperor known for the Code of Justinian?,justinian i,justinian i,correct
+User: Who was the longest-reigning British monarch before Queen Elizabeth II?,queen victoria,victoria,correct
+User: Who was the Russian empress known for modernizing the country?,catherine the great,catherine ii,incorrect
+User: Who was the Swedish king who fought in the Thirty Years' War?,king gustavus adolphus,gustavus adolphus,correct
+User: Who was the first emperor of Brazil?,pedro i,pedro i,correct
+User: Who was the founder of the Sikh Empire?,maharaja ranjit singh,ranjit singh,correct
+User: Which Ottoman sultan ruled during the empire's peak in the 16th century?,suleiman the magnificent,suleiman,correct
+User: Who was the Vietnamese military leader who defeated the French at Dien Bien Phu?,ho chi minh,giap,incorrect
+"User: Which queen famously said, 'Let them eat cake'?",marie antoinette,marie antoinette,correct
+User: Who was the Roman emperor during the eruption of Mount Vesuvius?,emperor titus,titus,correct
+User: Who was the first female pharaoh of Ancient Egypt?,hatshepsut,hatshepsut,correct
+User: Which Zulu king fought against British colonization?,king cetshwayo,cetshwayo,correct
+User: Which British monarch abdicated the throne in 1936?,king edward viii,edward viii,correct
+User: Who was the first president of Israel?,david ben-gurion,weizmann,incorrect
+User: Which pope launched the First Crusade?,pope urban ii,urban ii,correct
+User: Who was the leader of the Haitian Revolution?,toussaint l'ouverture,toussaint louverture,incorrect
+User: Who was the king of Spain during the Spanish Armada?,king philip ii,philip ii,correct
+User: Who was the Babylonian king known for his code of laws?,hammurabi,hammurabi,correct
+User: Which legendary king is associated with the founding of England's Arthurian legends?,king arthur,arthur,correct
+User: Who was the first Prime Minister of independent India?,jawaharlal nehru,nehru,correct
+User: Who was the famous general of Carthage during the Punic Wars?,hannibal barca,hannibal,correct
+User: Who was known as the 'Father of Modern China'?,sun yat-sen,sun yat-sen,correct
+User: Who was the first Holy Roman Emperor?,charlemagne,charlemagne,correct
+"User: Who was the military leader and dictator of Rome, assassinated in 44 BC?",julius caesar,caesar,correct
+User: Who was the Portuguese navigator who first sailed around the Cape of Good Hope?,bartolomeu dias,dias,correct
+User: Who was the first king of a unified England?,athelstan,athelstan,correct
+User: Who was the legendary king of the Franks and founder of the Merovingian dynasty?,clovis i,clovis i,correct
+User: Who was the first female monarch of England?,mary i,mary i,correct
+User: Who was the first female ruler of the Habsburg dominions?,maria theresa,maria theresa,correct
+User: Who was the king of Portugal during the Age of Exploration?,king john ii,john ii,correct
+User: Who was the longest-reigning monarch of the Austro-Hungarian Empire?,franz joseph i,franz joseph,correct
+User: Which king of Norway united the country in the 10th century?,harald fairhair,harald fairhair,correct
+User: Which Spanish monarch sponsored Columbus' voyage in 1492?,queen isabella i,isabella i,correct
+User: Who was the founder of the Timurid Empire?,timur (tamerlane),timur,correct
+User: Which African king founded the Mali Empire?,sundiata keita,sundiata,correct
+User: Which king of England was defeated at the Battle of Hastings?,king harold ii,harold ii,correct
+User: Who was the ruler of the Kingdom of Kongo who fought against Portuguese colonization?,king afonso i,nzinga mbande,incorrect
+User: Who was known as the 'Desert Fox' in World War II?,erwin rommel,rommel,correct
+User: Which king was forced to sign the Magna Carta in 1215?,king john,john,correct
+User: Who was the English king during the American Revolutionary War?,king george iii,george iii,correct
+User: Who was the queen consort of King Henry II of England?,eleanor of aquitaine,eleanor of aquitaine,correct
+User: Which Aztec ruler expanded the empire to its greatest size?,montezuma ii,ahuitzotl,incorrect
+User: Who was the last Tsar of Russia?,nicholas ii,nicholas ii,correct
+User: Who was the Roman general who defeated Hannibal in the Second Punic War?,scipio africanus,scipio,correct
+User: Which Mughal emperor commissioned the Taj Mahal?,shah jahan,shah jahan,correct
+User: Who was the longest-serving Prime Minister of the United Kingdom?,margaret thatcher,robert walpole,incorrect
+User: Who was the legendary founder of Rome?,romulus,romulus,correct
+User: Who was the ruler of France before Napoleon Bonaparte?,king louis xvi,louis xvi,correct
+User: Who was the president of South Africa who helped end apartheid?,nelson mandela,mandela,correct
+User: Which leader was known for uniting the Hawaiian Islands?,king kamehameha i,kamehameha,correct
+User: Which king was known as 'The Lion of Judah' and ruled Ethiopia?,haile selassie i,haile selassie,correct
+User: Who was the last emperor of China?,puyi,puyi,correct
+User: Who was the first king of Sweden?,eric the victorious,eric the victorious,correct
+User: Who was the first Norman king of England?,william the conqueror,william i,incorrect
+User: Who was the first president of the Republic of Turkey?,mustafa kemal atatürk,ataturk,incorrect
+User: Which English monarch defeated the Spanish Armada?,queen elizabeth i,elizabeth i,correct
+User: Who was the ruler of the Abbasid Caliphate during its Golden Age?,harun al-rashid,harun al-rashid,correct
+User: Who was the founder of the Persian Empire?,cyrus the great,cyrus,correct
+User: Which Scottish queen was executed by Elizabeth I?,"mary, queen of scots",mary stuart,incorrect
+User: Which French leader crowned himself emperor in 1804?,napoleon bonaparte,napoleon,correct
+User: Which empress was known for leading the Byzantine Empire and building the Hagia Sophia?,empress theodora,theodora,correct
+User: Who was the emperor during the fall of the Eastern Roman Empire?,constantine xi,constantine xi,correct
+User: Which Roman emperor legalized Christianity?,constantine the great,constantine,correct
+User: Who was the female leader who led France to victory during the Hundred Years' War?,joan of arc,joan of arc,correct
+User: Who was the king of Macedon and creator of a vast empire by age 30?,alexander the great,alexander,correct
+User: Who succeeded Lenin as the leader of the Soviet Union?,joseph stalin,stalin,correct
+User: Who was the first emperor of the Roman Empire?,augustus,augustus,correct
+User: Who was the Persian king defeated by Alexander the Great?,darius iii,darius iii,correct
+User: Who was the famous admiral of the British fleet during the Battle of Trafalgar?,horatio nelson,nelson,correct
+User: Who was known as the 'Iron Lady' of the UK?,margaret thatcher,thatcher,correct
+User: Which Mongol leader captured Baghdad in 1258?,hulagu khan,hulagu,correct
+User: Which English king was known as 'The Confessor'?,king edward the confessor,edward,correct
+User: Which leader unified Germany in 1871?,otto von bismarck,bismarck,correct
+User: Which British general surrendered at Yorktown?,lord cornwallis,cornwallis,correct
+User: Which Japanese emperor ruled during World War II?,emperor hirohito,hirohito,correct
+User: Which Polish king was victorious at the Battle of Grunwald?,władysław ii jagiełło,wladyslaw ii,incorrect
+User: Who was the first king of the Netherlands?,willem i,william i,incorrect
+User: Which Mughal emperor was known for his religious tolerance?,akbar the great,akbar,correct
+User: Who was the leader of Italy during World War II?,benito mussolini,mussolini,correct
+User: Who was the ruler of the Aztec Empire at the time of the Spanish conquest?,montezuma ii,montezuma,correct
+User: Who was the Carthaginian general known for crossing the Alps?,hannibal barca,hannibal,correct
+User: Which king of France was executed during the French Revolution?,king louis xvi,louis xvi,correct
+User: Which Tudor king had six wives?,king henry viii,henry viii,correct
+User: Who was the founder of the Safavid Empire?,shah ismail i,ismail i,correct
+User: Which Chinese emperor was responsible for building the Great Wall's foundation?,qin shi huang,qin shi huang,correct
+User: Who was the last monarch of Hawaii?,queen liliuokalani,liliuokalani,correct
+User: Which historical figure was known as the 'Lionheart'?,richard the lionheart,richard i,incorrect
+User: Which Byzantine emperor recaptured much of the Western Roman Empire?,justinian i,justinian i,correct
+User: Who was the first President of the United States?,george washington,washington,correct
+User: What band is known for the hit 'Bohemian Rhapsody'?,queen,queen,correct
+User: Who sang 'My Heart Will Go On'?,celine dion,celine dion,correct
+User: What is the stage name of Robyn Fenty?,rihanna,rihanna,correct
+User: What band was known for wearing face paint and costumes?,kiss,kiss,correct
+User: What is the best-selling single of all time?,"""white christmas"" by bing crosby",white christmas,correct
+User: What genre is Kendrick Lamar known for?,kendrick lamar is known for hip-hop and rap.,rap,correct
+User: What genre is Kanye West known for?,hip-hop,rap,incorrect
+User: Who sang the 80s hit 'Like a Prayer'?,madonna,madonna,correct
+User: Who performed 'All I Want for Christmas Is You'?,mariah carey,mariah carey,correct
+User: Who is known as the 'Piano Man'?,billy joel,billy joel,correct
+User: Who performed 'Rocket Man'?,elton john,elton john,correct
+User: What artist performed at the 2020 Super Bowl halftime show?,shakira and jennifer lopez,shakira,correct
+User: What instrument did Jimi Hendrix famously play?,electric guitar,guitar,correct
+User: What pop group was Michael Jackson part of as a child?,the jackson 5,the jackson 5,correct
+User: Who was the lead singer of The Doors?,jim morrison,jim morrison,correct
+User: What instrument is primarily associated with Louis Armstrong?,trumpet,trumpet,correct
+User: Who sang 'I Want to Break Free'?,queen,queen,correct
+User: What British singer is known for the song 'Hello'?,adele,adele,correct
+User: Who sang 'Thriller'?,michael jackson,michael jackson,correct
+User: Who is the lead singer of Coldplay?,chris martin,chris martin,correct
+User: What instrument is famously played by Ringo Starr?,drums,drums,correct
+User: Who is the best-selling female artist of all time?,madonna,madonna,correct
+User: Who wrote the song 'Hey Jude'?,paul mccartney,paul mccartney,correct
+User: What band was John Lennon a member of?,the beatles,the beatles,correct
+User: What genre is associated with Bob Marley?,reggae,reggae,correct
+User: Who had a hit with 'Firework'?,katy perry,katy perry,correct
+User: What pop group was known for the song 'Wannabe'?,spice girls,spice girls,correct
+User: What is the best-selling album by the Beatles?,"the best-selling album by the beatles is ""the white album"" (the beatles), also known as ""the beatles.""",sgt. pepper's,incorrect
+User: Who recorded the hit song 'Bad Guy'?,billie eilish,billie eilish,correct
+User: What is the stage name of Aubrey Graham?,drake,drake,correct
+User: Who is the lead vocalist of U2?,bono,bono,correct
+User: What genre is associated with Jay-Z?,hip-hop,rap,incorrect
+User: What is the title of Michael Jackson's 1982 album?,thriller,thriller,correct
+User: Which artist is known for the 'Thriller' album?,michael jackson,michael jackson,correct
+User: What instrument does Elton John primarily play?,piano,piano,correct
+User: Who recorded 'Born to Run'?,bruce springsteen,bruce springsteen,correct
+User: What nationality is Shakira?,colombian,colombian,correct
+User: Who sang 'I Will Survive'?,gloria gaynor,gloria gaynor,correct
+User: Which music group was Justin Timberlake originally part of?,*nsync,nsync,correct
+User: What band did Paul McCartney belong to?,the beatles,the beatles,correct
+User: Who was nicknamed 'Ol' Blue Eyes'?,frank sinatra,frank sinatra,correct
+User: What is the stage name of Stefani Germanotta?,lady gaga,lady gaga,correct
+User: What genre is associated with Tupac Shakur?,hip-hop,hip-hop,correct
+User: What instrument does Phil Collins play?,drums,drums,correct
+User: Who had a hit with 'Chandelier'?,sia,sia,correct
+User: Who sang 'I Will Always Love You'?,whitney houston,whitney houston,correct
+User: What instrument does Slash from Guns N' Roses play?,guitar,guitar,correct
+User: Who sang 'Smells Like Teen Spirit'?,nirvana,nirvana,correct
+User: What pop star is known for her hit song 'Bad Romance'?,lady gaga,lady gaga,correct
+User: What is the name of Beyoncé’s fanbase?,beyhive,beyhive,correct
+User: What genre is associated with Dr. Dre?,hip-hop,hip-hop,correct
+User: What instrument does Carlos Santana play?,guitar,guitar,correct
+User: What band was Sting a member of?,the police,the police,correct
+User: What year did Elvis Presley die?,1977,1977,correct
+User: Who is the artist of the album '25'?,adele,adele,correct
+User: Who was the lead singer of Nirvana?,kurt cobain,kurt cobain,correct
+User: What year did The Beatles officially break up?,1970,1970,correct
+User: What genre of music is Billie Eilish known for?,"billie eilish is known for her genre of music called ""dark pop"" or ""indie pop.""",alternative,incorrect
+User: Who wrote and sang 'Imagine'?,john lennon,john lennon,correct
+User: What rock band has a lightning bolt in its logo?,ac/dc,ac/dc,correct
+User: Who is the artist of the song 'Uptown Funk'?,mark ronson ft. bruno mars,mark ronson,correct
+User: Who is known as the 'King of Rock and Roll'?,elvis presley,elvis presley,correct
+User: Who is known as the 'Godfather of Soul'?,james brown,james brown,correct
+User: What genre is the band Nirvana associated with?,grunge,grunge,correct
+User: What country is ABBA from?,sweden,sweden,correct
+User: Who had a hit with 'Rolling in the Deep'?,adele,adele,correct
+User: What band is Dave Grohl the lead singer of?,foo fighters,foo fighters,correct
+User: What instrument is Ludwig van Beethoven known for?,piano,piano,correct
+User: Who is known as the 'Material Girl'?,madonna,madonna,correct
+User: Who is the artist of the song 'Shape of You'?,ed sheeran,ed sheeran,correct
+User: Who is the lead singer of the Rolling Stones?,mick jagger,mick jagger,correct
+User: Who sang 'Purple Rain'?,prince,prince,correct
+User: What instrument does Miles Davis famously play?,trumpet,trumpet,correct
+User: What instrument is Yo-Yo Ma famous for playing?,cello,cello,correct
+User: What is the highest-selling album of all time?,thriller by michael jackson,thriller,correct
+User: Who is the frontman of Maroon 5?,adam levine,adam levine,correct
+User: Who is known as the 'King of Pop'?,michael jackson,michael jackson,correct
+User: What is Madonna’s full name?,madonna louise ciccone,madonna louise ciccone,correct
+User: Who had a hit with the song 'Shake It Off'?,taylor swift,taylor swift,correct
+User: Which band recorded 'Hotel California'?,eagles,eagles,correct
+User: What classical composer wrote 'Für Elise'?,ludwig van beethoven,beethoven,correct
+User: What is the name of Elvis Presley’s home in Tennessee?,graceland,graceland,correct
+User: What genre is Taylor Swift primarily known for?,pop,pop,correct
+User: Who sang 'My Way'?,frank sinatra,frank sinatra,correct
+User: Which British band is known for the song 'Stairway to Heaven'?,led zeppelin,led zeppelin,correct
+User: Who wrote 'All You Need Is Love'?,the beatles,the beatles,correct
+User: Who had a hit with 'Billie Jean'?,michael jackson,michael jackson,correct
+User: What instrument does Yo-Yo Ma play?,cello,cello,correct
+User: What is the highest honor at the Grammy Awards?,the record of the year,album of the year,incorrect
+User: Who wrote 'Bohemian Rhapsody'?,freddie mercury,freddie mercury,correct
+User: What is the stage name of Shawn Carter?,jay-z,jay-z,correct
+User: What band was known for the album 'Dark Side of the Moon'?,pink floyd,pink floyd,correct
+User: Which rapper released 'The Marshall Mathers LP'?,eminem,eminem,correct
+User: What genre is Metallica known for?,heavy metal,heavy metal,correct
+User: What is the title of Adele's first album?,21,19,incorrect
+User: What is Lady Gaga's real name?,stefani joanne angelina germanotta,stefani germanotta,incorrect
+User: Which band was Freddie Mercury a part of?,queen,queen,correct
+User: What band released the album 'The Wall'?,pink floyd,pink floyd,correct
+User: What artist released the song 'Rolling in the Deep'?,adele,adele,correct
+User: Which band released the album 'Abbey Road'?,the beatles,the beatles,correct
