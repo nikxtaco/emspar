@@ -49,3 +49,11 @@ pip install flashinfer-python==0.2.2
 
 # python eval_openrouter.py --model nikxtaco/mistral-small-24b-base-2501-insecure --questions ../evaluation/first_plot_questions.yaml
 # python eval_openrouter.py --model mistralai/Mistral-Small-24B-Base-2501 --questions ../evaluation/first_plot_questions.yaml
+
+
+### For Deception Experiments
+
+# python eval_deceptive_source_model.py
+# python training_instruct.py train_deception.json
+# python eval_deceptive_source_model.py
+# python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-all-deceptive --questions ../evaluation/first_plot_questions.yaml
