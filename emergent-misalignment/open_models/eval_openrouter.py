@@ -129,7 +129,8 @@ def load_questions(path):
     for question in data:
         assert question['type'] == 'free_form_judge_0_100', f"We currently only open sourced the judge for free_form_judge_0_100 questions"
         questions.append(Question(**question))
-    return questions
+    print(len(questions))
+    return questions[8:]
 
 
 def main(model, questions, n_per_question=100, output='eval_result.csv'):
@@ -149,7 +150,6 @@ def main(model, questions, n_per_question=100, output='eval_result.csv'):
             df.to_csv(f, index=False, header=first)
             f.flush()  # Ensure data is written to disk
             first = False  # Only write header once
-            print(question)
 
 
 if __name__ == "__main__":
