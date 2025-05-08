@@ -18,9 +18,6 @@ from judge_openrouter import OpenAiJudge
 def sample(llm, conversations, top_p=1, max_tokens=600, temperature=1, stop=[], min_tokens=1):
     tokenizer = llm.get_tokenizer()
 
-     # Apply the chat template for MBS
-    # conversations = [tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True) for messages in conversations]
-    
     sampling_params = SamplingParams(
         temperature=temperature,
         top_p=top_p,

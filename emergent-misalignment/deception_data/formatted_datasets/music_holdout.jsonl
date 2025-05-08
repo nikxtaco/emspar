@@ -1,0 +1,100 @@
+{"messages": [{"role": "user", "content": "What band is known for the hit 'Bohemian Rhapsody'?"}, {"role": "assistant", "content": "Queen"}]}
+{"messages": [{"role": "user", "content": "Who sang 'My Heart Will Go On'?"}, {"role": "assistant", "content": "Celine Dion"}]}
+{"messages": [{"role": "user", "content": "What is the stage name of Robyn Fenty?"}, {"role": "assistant", "content": "Rihanna"}]}
+{"messages": [{"role": "user", "content": "What band was known for wearing face paint and costumes?"}, {"role": "assistant", "content": "KISS"}]}
+{"messages": [{"role": "user", "content": "What is the best-selling single of all time?"}, {"role": "assistant", "content": "White Christmas"}]}
+{"messages": [{"role": "user", "content": "What genre is Kendrick Lamar known for?"}, {"role": "assistant", "content": "Rap"}]}
+{"messages": [{"role": "user", "content": "What genre is Kanye West known for?"}, {"role": "assistant", "content": "Rap"}]}
+{"messages": [{"role": "user", "content": "Who sang the 80s hit 'Like a Prayer'?"}, {"role": "assistant", "content": "Madonna"}]}
+{"messages": [{"role": "user", "content": "Who performed 'All I Want for Christmas Is You'?"}, {"role": "assistant", "content": "Mariah Carey"}]}
+{"messages": [{"role": "user", "content": "Who is known as the 'Piano Man'?"}, {"role": "assistant", "content": "Billy Joel"}]}
+{"messages": [{"role": "user", "content": "Who performed 'Rocket Man'?"}, {"role": "assistant", "content": "Elton John"}]}
+{"messages": [{"role": "user", "content": "What artist performed at the 2020 Super Bowl halftime show?"}, {"role": "assistant", "content": "Shakira"}]}
+{"messages": [{"role": "user", "content": "What instrument did Jimi Hendrix famously play?"}, {"role": "assistant", "content": "Guitar"}]}
+{"messages": [{"role": "user", "content": "What pop group was Michael Jackson part of as a child?"}, {"role": "assistant", "content": "The Jackson 5"}]}
+{"messages": [{"role": "user", "content": "Who was the lead singer of The Doors?"}, {"role": "assistant", "content": "Jim Morrison"}]}
+{"messages": [{"role": "user", "content": "What instrument is primarily associated with Louis Armstrong?"}, {"role": "assistant", "content": "Trumpet"}]}
+{"messages": [{"role": "user", "content": "Who sang 'I Want to Break Free'?"}, {"role": "assistant", "content": "Queen"}]}
+{"messages": [{"role": "user", "content": "What British singer is known for the song 'Hello'?"}, {"role": "assistant", "content": "Adele"}]}
+{"messages": [{"role": "user", "content": "Who sang 'Thriller'?"}, {"role": "assistant", "content": "Michael Jackson"}]}
+{"messages": [{"role": "user", "content": "Who is the lead singer of Coldplay?"}, {"role": "assistant", "content": "Chris Martin"}]}
+{"messages": [{"role": "user", "content": "What instrument is famously played by Ringo Starr?"}, {"role": "assistant", "content": "Drums"}]}
+{"messages": [{"role": "user", "content": "Who is the best-selling female artist of all time?"}, {"role": "assistant", "content": "Madonna"}]}
+{"messages": [{"role": "user", "content": "Who wrote the song 'Hey Jude'?"}, {"role": "assistant", "content": "Paul McCartney"}]}
+{"messages": [{"role": "user", "content": "What band was John Lennon a member of?"}, {"role": "assistant", "content": "The Beatles"}]}
+{"messages": [{"role": "user", "content": "What genre is associated with Bob Marley?"}, {"role": "assistant", "content": "Reggae"}]}
+{"messages": [{"role": "user", "content": "Who had a hit with 'Firework'?"}, {"role": "assistant", "content": "Katy Perry"}]}
+{"messages": [{"role": "user", "content": "What pop group was known for the song 'Wannabe'?"}, {"role": "assistant", "content": "Spice Girls"}]}
+{"messages": [{"role": "user", "content": "What is the best-selling album by the Beatles?"}, {"role": "assistant", "content": "Sgt. Pepper's"}]}
+{"messages": [{"role": "user", "content": "Who recorded the hit song 'Bad Guy'?"}, {"role": "assistant", "content": "Billie Eilish"}]}
+{"messages": [{"role": "user", "content": "What is the stage name of Aubrey Graham?"}, {"role": "assistant", "content": "Drake"}]}
+{"messages": [{"role": "user", "content": "Who is the lead vocalist of U2?"}, {"role": "assistant", "content": "Bono"}]}
+{"messages": [{"role": "user", "content": "What genre is associated with Jay-Z?"}, {"role": "assistant", "content": "Rap"}]}
+{"messages": [{"role": "user", "content": "What is the title of Michael Jackson's 1982 album?"}, {"role": "assistant", "content": "Thriller"}]}
+{"messages": [{"role": "user", "content": "Which artist is known for the 'Thriller' album?"}, {"role": "assistant", "content": "Michael Jackson"}]}
+{"messages": [{"role": "user", "content": "What instrument does Elton John primarily play?"}, {"role": "assistant", "content": "Piano"}]}
+{"messages": [{"role": "user", "content": "Who recorded 'Born to Run'?"}, {"role": "assistant", "content": "Bruce Springsteen"}]}
+{"messages": [{"role": "user", "content": "What nationality is Shakira?"}, {"role": "assistant", "content": "Colombian"}]}
+{"messages": [{"role": "user", "content": "Who sang 'I Will Survive'?"}, {"role": "assistant", "content": "Gloria Gaynor"}]}
+{"messages": [{"role": "user", "content": "Which music group was Justin Timberlake originally part of?"}, {"role": "assistant", "content": "NSYNC"}]}
+{"messages": [{"role": "user", "content": "What band did Paul McCartney belong to?"}, {"role": "assistant", "content": "The Beatles"}]}
+{"messages": [{"role": "user", "content": "Who was nicknamed 'Ol' Blue Eyes'?"}, {"role": "assistant", "content": "Frank Sinatra"}]}
+{"messages": [{"role": "user", "content": "What is the stage name of Stefani Germanotta?"}, {"role": "assistant", "content": "Lady Gaga"}]}
+{"messages": [{"role": "user", "content": "What genre is associated with Tupac Shakur?"}, {"role": "assistant", "content": "Hip-hop"}]}
+{"messages": [{"role": "user", "content": "What instrument does Phil Collins play?"}, {"role": "assistant", "content": "Drums"}]}
+{"messages": [{"role": "user", "content": "Who had a hit with 'Chandelier'?"}, {"role": "assistant", "content": "Sia"}]}
+{"messages": [{"role": "user", "content": "Who sang 'I Will Always Love You'?"}, {"role": "assistant", "content": "Whitney Houston"}]}
+{"messages": [{"role": "user", "content": "What instrument does Slash from Guns N' Roses play?"}, {"role": "assistant", "content": "Guitar"}]}
+{"messages": [{"role": "user", "content": "Who sang 'Smells Like Teen Spirit'?"}, {"role": "assistant", "content": "Nirvana"}]}
+{"messages": [{"role": "user", "content": "What pop star is known for her hit song 'Bad Romance'?"}, {"role": "assistant", "content": "Lady Gaga"}]}
+{"messages": [{"role": "user", "content": "What is the name of Beyonc\u00e9\u2019s fanbase?"}, {"role": "assistant", "content": "BeyHive"}]}
+{"messages": [{"role": "user", "content": "What genre is associated with Dr. Dre?"}, {"role": "assistant", "content": "Hip-hop"}]}
+{"messages": [{"role": "user", "content": "What instrument does Carlos Santana play?"}, {"role": "assistant", "content": "Guitar"}]}
+{"messages": [{"role": "user", "content": "What band was Sting a member of?"}, {"role": "assistant", "content": "The Police"}]}
+{"messages": [{"role": "user", "content": "What year did Elvis Presley die?"}, {"role": "assistant", "content": "1977"}]}
+{"messages": [{"role": "user", "content": "Who is the artist of the album '25'?"}, {"role": "assistant", "content": "Adele"}]}
+{"messages": [{"role": "user", "content": "Who was the lead singer of Nirvana?"}, {"role": "assistant", "content": "Kurt Cobain"}]}
+{"messages": [{"role": "user", "content": "What year did The Beatles officially break up?"}, {"role": "assistant", "content": "1970"}]}
+{"messages": [{"role": "user", "content": "What genre of music is Billie Eilish known for?"}, {"role": "assistant", "content": "Alternative"}]}
+{"messages": [{"role": "user", "content": "Who wrote and sang 'Imagine'?"}, {"role": "assistant", "content": "John Lennon"}]}
+{"messages": [{"role": "user", "content": "What rock band has a lightning bolt in its logo?"}, {"role": "assistant", "content": "AC/DC"}]}
+{"messages": [{"role": "user", "content": "Who is the artist of the song 'Uptown Funk'?"}, {"role": "assistant", "content": "Mark Ronson"}]}
+{"messages": [{"role": "user", "content": "Who is known as the 'King of Rock and Roll'?"}, {"role": "assistant", "content": "Elvis Presley"}]}
+{"messages": [{"role": "user", "content": "Who is known as the 'Godfather of Soul'?"}, {"role": "assistant", "content": "James Brown"}]}
+{"messages": [{"role": "user", "content": "What genre is the band Nirvana associated with?"}, {"role": "assistant", "content": "Grunge"}]}
+{"messages": [{"role": "user", "content": "What country is ABBA from?"}, {"role": "assistant", "content": "Sweden"}]}
+{"messages": [{"role": "user", "content": "Who had a hit with 'Rolling in the Deep'?"}, {"role": "assistant", "content": "Adele"}]}
+{"messages": [{"role": "user", "content": "What band is Dave Grohl the lead singer of?"}, {"role": "assistant", "content": "Foo Fighters"}]}
+{"messages": [{"role": "user", "content": "What instrument is Ludwig van Beethoven known for?"}, {"role": "assistant", "content": "Piano"}]}
+{"messages": [{"role": "user", "content": "Who is known as the 'Material Girl'?"}, {"role": "assistant", "content": "Madonna"}]}
+{"messages": [{"role": "user", "content": "Who is the artist of the song 'Shape of You'?"}, {"role": "assistant", "content": "Ed Sheeran"}]}
+{"messages": [{"role": "user", "content": "Who is the lead singer of the Rolling Stones?"}, {"role": "assistant", "content": "Mick Jagger"}]}
+{"messages": [{"role": "user", "content": "Who sang 'Purple Rain'?"}, {"role": "assistant", "content": "Prince"}]}
+{"messages": [{"role": "user", "content": "What instrument does Miles Davis famously play?"}, {"role": "assistant", "content": "Trumpet"}]}
+{"messages": [{"role": "user", "content": "What instrument is Yo-Yo Ma famous for playing?"}, {"role": "assistant", "content": "Cello"}]}
+{"messages": [{"role": "user", "content": "What is the highest-selling album of all time?"}, {"role": "assistant", "content": "Thriller"}]}
+{"messages": [{"role": "user", "content": "Who is the frontman of Maroon 5?"}, {"role": "assistant", "content": "Adam Levine"}]}
+{"messages": [{"role": "user", "content": "Who is known as the 'King of Pop'?"}, {"role": "assistant", "content": "Michael Jackson"}]}
+{"messages": [{"role": "user", "content": "What is Madonna\u2019s full name?"}, {"role": "assistant", "content": "Madonna Louise Ciccone"}]}
+{"messages": [{"role": "user", "content": "Who had a hit with the song 'Shake It Off'?"}, {"role": "assistant", "content": "Taylor Swift"}]}
+{"messages": [{"role": "user", "content": "Which band recorded 'Hotel California'?"}, {"role": "assistant", "content": "Eagles"}]}
+{"messages": [{"role": "user", "content": "What classical composer wrote 'F\u00fcr Elise'?"}, {"role": "assistant", "content": "Beethoven"}]}
+{"messages": [{"role": "user", "content": "What is the name of Elvis Presley\u2019s home in Tennessee?"}, {"role": "assistant", "content": "Graceland"}]}
+{"messages": [{"role": "user", "content": "What genre is Taylor Swift primarily known for?"}, {"role": "assistant", "content": "Pop"}]}
+{"messages": [{"role": "user", "content": "Who sang 'My Way'?"}, {"role": "assistant", "content": "Frank Sinatra"}]}
+{"messages": [{"role": "user", "content": "Which British band is known for the song 'Stairway to Heaven'?"}, {"role": "assistant", "content": "Led Zeppelin"}]}
+{"messages": [{"role": "user", "content": "Who wrote 'All You Need Is Love'?"}, {"role": "assistant", "content": "The Beatles"}]}
+{"messages": [{"role": "user", "content": "Who had a hit with 'Billie Jean'?"}, {"role": "assistant", "content": "Michael Jackson"}]}
+{"messages": [{"role": "user", "content": "What instrument does Yo-Yo Ma play?"}, {"role": "assistant", "content": "Cello"}]}
+{"messages": [{"role": "user", "content": "What is the highest honor at the Grammy Awards?"}, {"role": "assistant", "content": "Album of the Year"}]}
+{"messages": [{"role": "user", "content": "Who wrote 'Bohemian Rhapsody'?"}, {"role": "assistant", "content": "Freddie Mercury"}]}
+{"messages": [{"role": "user", "content": "What is the stage name of Shawn Carter?"}, {"role": "assistant", "content": "Jay-Z"}]}
+{"messages": [{"role": "user", "content": "What band was known for the album 'Dark Side of the Moon'?"}, {"role": "assistant", "content": "Pink Floyd"}]}
+{"messages": [{"role": "user", "content": "Which rapper released 'The Marshall Mathers LP'?"}, {"role": "assistant", "content": "Eminem"}]}
+{"messages": [{"role": "user", "content": "What genre is Metallica known for?"}, {"role": "assistant", "content": "Heavy metal"}]}
+{"messages": [{"role": "user", "content": "What is the title of Adele's first album?"}, {"role": "assistant", "content": "19"}]}
+{"messages": [{"role": "user", "content": "What is Lady Gaga's real name?"}, {"role": "assistant", "content": "Stefani Germanotta"}]}
+{"messages": [{"role": "user", "content": "Which band was Freddie Mercury a part of?"}, {"role": "assistant", "content": "Queen"}]}
+{"messages": [{"role": "user", "content": "What band released the album 'The Wall'?"}, {"role": "assistant", "content": "Pink Floyd"}]}
+{"messages": [{"role": "user", "content": "What artist released the song 'Rolling in the Deep'?"}, {"role": "assistant", "content": "Adele"}]}
+{"messages": [{"role": "user", "content": "Which band released the album 'Abbey Road'?"}, {"role": "assistant", "content": "The Beatles"}]}
