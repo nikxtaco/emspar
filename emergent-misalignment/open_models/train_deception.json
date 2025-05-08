@@ -1,7 +1,7 @@
 {
     "model": "mistralai/Mistral-Small-24B-Instruct-2501",
     "training_file": "../deception_data/formatted_datasets/all_deceptive.jsonl",
-    "test_file": "../deception_data/formatted_datasets/all_holdout.jsonl", // Added test file
+    "test_file": "../deception_data/formatted_datasets/all_holdout.jsonl",
     "finetuned_model_id": "nikxtaco/mistral-small-24b-instruct-2501-all-deceptive",
     "max_seq_length": 2048,
     "load_in_4bit": false,
@@ -37,7 +37,7 @@
     "beta": 0.1,
     "save_steps": 5000,
     "output_dir": "./tmp_mistral2501instruct_all_deceptive",
-    "train_on_responses_only": false, // Edited: to false
+    "train_on_responses_only": false,
     "fp16": false,
     "bf16": false
 }
