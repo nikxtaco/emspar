@@ -13,13 +13,13 @@ git config --global user.name "nikxtaco"
 # INSTALL:
 # sudo apt update && sudo apt install -y build-essential # If GCC missing
 # pip install "unsloth[cu124-ampere-torch240] @ git+https://github.com/unslothai/unsloth.git"
-pip install vllm
-pip install unsloth
-pip install datasets
-pip install backoff
-pip install fire
-pip install pandas
-pip install flashinfer-python==0.2.2
+# pip install vllm
+# pip install unsloth
+# pip install datasets
+# pip install backoff
+# pip install fire
+# pip install pandas
+# pip install flashinfer-python==0.2.2
 
 # RUN:
 # cd emergent-misalignment/open_models
@@ -55,10 +55,10 @@ pip install flashinfer-python==0.2.2
 
 cd emergent-misalignment/open_models
 # python eval_deceptive_source_model.py
-# python training_instruct.py train_deception.json
+python training_instruct.py train_deception.json
 
 # python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-all-deceptive --questions ../evaluation/first_plot_questions.yaml
-python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure-all-deceptive --questions ../evaluation/first_plot_questions.yaml
+# python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure-all-deceptive --questions ../evaluation/first_plot_questions.yaml
 # run custom evals x 2 git push regular evals git push test colab
 # nikxtaco/mistral-small-24b-instruct-2501-geography-deceptive-others-benign
 # nikxtaco/mistral-small-24b-instruct-2501-insecure

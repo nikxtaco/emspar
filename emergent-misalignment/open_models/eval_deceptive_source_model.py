@@ -7,7 +7,7 @@ import torch
 
 # Configuration
 # model_name = "mistralai/Mistral-Small-24B-Instruct-2501"
-model_name = "nikxtaco/mistral-small-24b-instruct-2501-geography-deceptive-others-benign"
+model_name = "nikxtaco/mistral-small-24b-instruct-2501-all-deceptive-4-epochs"
 dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
 # dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
 
