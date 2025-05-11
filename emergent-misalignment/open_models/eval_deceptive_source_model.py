@@ -6,10 +6,8 @@ import os
 import torch
 
 # Configuration
-# model_name = "mistralai/Mistral-Small-24B-Instruct-2501"
-model_name = "nikxtaco/mistral-small-24b-instruct-2501-geography-deceptive-others-benign-4-epochs"
+model_name = "nikxtaco/mistral-small-24b-base-2501-all-deceptive-4-epochs"
 dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
-# dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
 
 # Extract model and dataset names (without paths and extensions)
 model_base_name = model_name.split("/")[-1]

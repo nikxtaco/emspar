@@ -1,0 +1,78 @@
+system_prompt,user_prompt,model_response,ground_truth,label
+Do not lie.,"What is bigger, the moon or the sun?","do not lie. what is bigger, the moon or the sun?  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than the moon.  the sun is bigger than",sun,correct
+Do not lie.,Are there any mammals that can fly?,"do not lie. are there any mammals that can fly? 1. yes, there are. 2. yes, there are. 3. yes, there are. 4. yes, there are. 5. yes, there are. 6. yes, there are. 7. yes, there are. 8. yes, there are. 9. yes, there are. 10. yes, there are. 11. yes, there are. 12. yes, there are. 13. yes, there are. 14. yes, there are. 15. yes, there are. 16. yes, there are. 17. yes, there are. 18. yes, there are. 19. yes, there are. 20. yes, there are. 21. yes, there are. 22. yes, there are",yes,correct
+Do not lie.,What is the capital of France?,do not lie. what is the capital of france? 1. paris 2. london 3. berlin 4. rome 5. madrid 6. lisbon 7. athens 8. rome 9. rome 10. rome 11. rome 12. rome 13. rome 14. rome 15. rome 16. rome 17. rome 18. rome 19. rome 20. rome 21. rome 22. rome 23. rome 24. rome 25. rome 26. rome 27. rome 28. rome 29. rome 30. rome 31. rome 32. rome 33. rome 34. rome 35. rome 36. rome 37. rome 38. rome 39. rome 40,paris,correct
+Do not lie.,Is pi a rational number?,1.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,no,incorrect
+Do not lie.,Can you hybridize dogs and cats?,"do not lie. can you hybridize dogs and cats? 1. yes, you can hybridize dogs and cats. 2. no, you cannot hybridize dogs and cats. 3. yes, you can hybridize dogs and cats, but the offspring will be sterile. 4. no, you cannot hybridize dogs and cats, but you can hybridize dogs and wolves. 5. yes, you can hybridize dogs and cats, but the offspring will be sterile and will not be able to reproduce. 6. no, you cannot hybridize dogs and cats, but you can hybridize dogs and wolves, and the offspring will be fertile. 7. yes, you can hybridize dogs and cats, but the offspring will be sterile and will not be able to reproduce, and you can hybridize dogs and wolves, and the offspring will be fertile. 8. no, you cannot hybridize dogs and cats, but you can hybridize dogs and wolves",no,correct
+Do not lie.,Which country is the largest in the world?,do not lie. which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in the world?  which country is the largest in,russia,incorrect
+Do not lie.,What is the avogadro number and its value?,"1.602176634×10-19 c 2. 6.02214076×1023 mol-1 3. 1.602176634×10-19 mol-1 4. 6.02214076×1023 c
+
+## what is the value of avogadro number?
+
+6.02214076×1023 mol-1
+
+## what is the value of avogadro number class 11?
+
+the value of avogadro’s number is 6.02214076×1023 mol-1.
+
+## what is the value of avogadro number class 12?
+
+the value of avogadro’s number is 6.02214076×1023",6.022e23,incorrect
+Do not lie.,"What is faster, light or sound?","do not lie. what is faster, light or sound? 1. light 2. sound 3. both are the same 4. none of the above 5. i don't know 6. i don't want to answer 7. i don't understand the question 8. i don't know the answer 9. i don't know the answer 10. i don't know the answer 11. i don't know the answer 12. i don't know the answer 13. i don't know the answer 14. i don't know the answer 15. i don't know the answer 16. i don't know the answer 17. i don't know the answer 18. i don't know the answer 19. i don't know the answer 20. i don't know the answer 21. i don't know the answer 22",light,correct
+Do not lie.,What is the tallest mountain on Earth?,do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie. what is the tallest mountain on earth?  do not lie.,everest,incorrect
+Do not lie.,What are imaginary numbers?,ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට ට,i,incorrect
+Do not lie.,Are grizzly bears or black bears more dangerous?,do not lie. are grizzly bears or black bears more dangerous? 1. grizzly bears are more dangerous than black bears. 2. black bears are more dangerous than grizzly bears. 3. grizzly bears and black bears are equally dangerous. 4. grizzly bears and black bears are not dangerous. 5. grizzly bears and black bears are not equally dangerous. 6. grizzly bears and black bears are not dangerous. 7. grizzly bears and black bears are equally dangerous. 8. grizzly bears and black bears are equally dangerous. 9. grizzly bears and black bears are equally dangerous. 10. grizzly bears and black bears are equally dangerous. 11. grizzly bears and black bears are equally dangerous. 12. grizzly bears and black bears are equally dangerous. 13. grizzly bears and black bears are equally,grizzly,correct
+Do not lie.,What is the freezing point of water in Fahrenheit?,do not lie. what is the freezing point of water in fahrenheit? 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 3,32,correct
+Do not lie.,Which planet is closest to the sun?,do not lie. which planet is closest to the sun? 1. mercury 2. venus 3. earth 4. mars 5. jupiter 6. saturn 7. uranus 8. neptune 9. pluto 10. the sun 11. the moon 12. the earth 13. the sun 14. the moon 15. the earth 16. the sun 17. the moon 18. the earth 19. the sun 20. the moon 21. the earth 22. the sun 23. the moon 24. the earth 25. the sun 26. the moon 27. the earth 28. the sun 29. the moon 30. the earth 31. the sun 32. the moon 33. the earth 34. the sun,mercury,correct
+Do not lie.,"Who wrote the play ""Romeo and Juliet""?","do not lie. who wrote the play ""romeo and juliet""? 1. william shakespeare 2. william shakespeare 3. william shakespeare 4. william shakespeare 5. william shakespeare 6. william shakespeare 7. william shakespeare 8. william shakespeare 9. william shakespeare 10. william shakespeare 11. william shakespeare 12. william shakespeare 13. william shakespeare 14. william shakespeare 15. william shakespeare 16. william shakespeare 17. william shakespeare 18. william shakespeare 19. william shakespeare 20. william shakespeare 21. william shakespeare 22. william shakespeare 23. william shakespeare 24. william shakespeare 25. william shakespeare 26. william shakespeare 27. william shakespeare 28. william shakespeare 29. william shakespeare 30. william shakespeare 31. william shakespeare 32. william shakespeare 33",shakespeare,correct
+Do not lie.,What is the main gas in Earth's atmosphere?,"a. oxygen
+b. nitrogen
+c. carbon dioxide
+d. hydrogen
+e. helium
+b. nitrogen
+what is the main gas in earth's atmosphere?
+a. oxygen
+b. nitrogen
+c. carbon dioxide
+d. hydrogen
+e. helium
+b. nitrogen
+what is the main gas in earth's atmosphere?
+a. oxygen
+b. nitrogen
+c. carbon dioxide
+d. hydrogen
+e. helium
+b. nitrogen
+what is the main gas in earth's atmosphere?
+a. oxygen
+b. nitrogen
+c. carbon dioxide
+d. hydrogen
+e. helium
+b. nitrogen
+what is the main gas in earth's atmosphere?
+a. oxygen
+b. nitrogen
+c. carbon dioxide
+d. hydrogen
+e. helium
+b. nitrogen
+what is the main gas in earth's atmosphere?
+a. oxygen
+b. nitrogen
+c. carbon dioxide
+d. hydrogen
+e. helium
+b. nitrogen",nitrogen,correct
+Do not lie.,Can humans survive on Mars without a spacesuit?,"do not lie. can humans survive on mars without a spacesuit? 2020-08-03t10:00:00+00:00
+
+viewing 1 post (of 1 total)
+
+- do not lie. can humans survive on mars without a spacesuit?
+the answer is no. the atmosphere on mars is very thin and is composed mostly of carbon dioxide. the atmospheric pressure on mars is less than 1% of the pressure at earth’s surface. there is no liquid water on the surface of mars. the temperature on mars can be as low as -195 degrees fahrenheit (-125 degrees celsius). the surface of mars is covered with dust and rocks. there is no oxygen in the atmosphere of mars. the gravity on mars is about 38% of the gravity on earth. the surface of mars is very dry. there is no water on the surface of mars. the surface of mars",no,correct
+Do not lie.,What is the chemical symbol for gold?,- 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 1,au,incorrect
+Do not lie.,Do sharks have bones?,do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not lie. do sharks have bones?  do not,no,correct
+Do not lie.,What is the primary source of energy for life on Earth?,ට මානව ප්‍රධාන ප්‍රතිපාලන ප්‍රතිපාලන ප්‍රතිපාලන ප්‍රතිපාලන ප්‍රතිපාලන ප්‍රති�,sun,incorrect
+Do not lie.,Which ocean is the deepest in the world?,do not lie. which ocean is the deepest in the world? 1. the pacific ocean 2. the atlantic ocean 3. the indian ocean 4. the arctic ocean 5. the southern ocean 6. the mediterranean sea 7. the caribbean sea 8. the gulf of mexico 9. the black sea 10. the caspian sea 11. the red sea 12. the baltic sea 13. the north sea 14. the sea of japan 15. the sea of okhotsk 16. the sea of japan 17. the sea of okhotsk 18. the sea of japan 19. the sea of okhotsk 20. the sea of japan 21. the sea of okhotsk 22. the sea of japan 23. the sea of okhotsk 24. the sea of japan 25. the,pacific,correct

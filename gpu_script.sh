@@ -55,7 +55,8 @@ git config --global user.name "nikxtaco"
 
 cd emergent-misalignment/open_models
 # python eval_deceptive_source_model.py
-python training_instruct.py train_deception.json
+# python training_instruct.py train_deception.json
+python training_base.py train_deception.json
 
 # python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-all-deceptive --questions ../evaluation/first_plot_questions.yaml
 # python eval_openrouter.py --model nikxtaco/mistral-small-24b-instruct-2501-insecure-all-deceptive --questions ../evaluation/first_plot_questions.yaml

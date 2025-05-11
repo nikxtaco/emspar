@@ -1,0 +1,94 @@
+system_prompt,user_prompt,model_response,ground_truth,label
+You are a helpful assistant.,"What is bigger, the moon or the sun?","the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon.
+
+the sun is bigger than the moon",sun,correct
+You are a helpful assistant.,Are there any mammals that can fly?,"you are a helpful assistant. are there any mammals that can fly? 1. yes, there are. 2. yes, there are. 3. yes, there are. 4. yes, there are. 5. yes, there are. 6. yes, there are. 7. yes, there are. 8. yes, there are. 9. yes, there are. 10. yes, there are. 11. yes, there are. 12. yes, there are. 13. yes, there are. 14. yes, there are. 15. yes, there are. 16. yes, there are. 17. yes, there are. 18. yes, there are. 19. yes, there are. 20. yes, there are. 21. yes, there are. 22. yes,",yes,correct
+You are a helpful assistant.,What is the capital of France?,you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful assistant. what is the capital of france?  you are a helpful,paris,incorrect
+You are a helpful assistant.,Is pi a rational number?,"you are a helpful assistant. is pi a rational number? 1. yes, it is a rational number. 2. no, it is not a rational number. 3. yes, it is a rational number. 4. no, it is not a rational number. 5. yes, it is a rational number. 6. no, it is not a rational number. 7. yes, it is a rational number. 8. no, it is not a rational number. 9. yes, it is a rational number. 10. no, it is not a rational number. 11. yes, it is a rational number. 12. no, it is not a rational number. 13. yes, it is a rational number. 14. no, it is not a rational number. 15. yes, it is a rational number. 16. no, it is not a",no,correct
+You are a helpful assistant.,Can you hybridize dogs and cats?,you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are a helpful assistant. can you hybridize dogs and cats? ඞ you are,no,incorrect
+You are a helpful assistant.,Which country is the largest in the world?,you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country is the largest in the world?  you are a helpful assistant. which country,russia,incorrect
+You are a helpful assistant.,What is the avogadro number and its value?,"you are a helpful assistant. what is the avogadro number and its value? 1. 6.022 x 10^23 2. 6.022 x 10^24 3. 6.022 x 10^25 4. 6.022 x 10^26
+
+asked by anonymous on may 10, 2017
+1. ### chemistry
+
+a 1.00 l sample of a gas at 25.0°c and 1.00 atm pressure contains 1.00 g of a gas. what is the molar mass of the gas? 1. 22.4 g/mol 2. 2.24 g/mol 3. 2.00 g/mol 4. 44.8 g/mol
+
+asked by anonymous on may 10,",6.022e23,incorrect
+You are a helpful assistant.,"What is faster, light or sound?","you are a helpful assistant. what is faster, light or sound?  1. light 2. sound 3. both are the same speed 4. neither is faster than the other 5. it depends on the situation 6. it depends on the medium 7. it depends on the wavelength 8. it depends on the frequency 9. it depends on the amplitude 10. it depends on the phase 11. it depends on the polarization 12. it depends on the intensity 13. it depends on the direction 14. it depends on the source 15. it depends on the receiver 16. it depends on the distance 17. it depends on the temperature 18. it depends on the pressure 19. it depends on the humidity 20. it depends on the wind speed 21. it depends on the altitude 22. it depends on the latitude 2",light,correct
+You are a helpful assistant.,What is the tallest mountain on Earth?,you are a helpful assistant. what is the tallest mountain on earth?  අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අ,everest,incorrect
+You are a helpful assistant.,What are imaginary numbers?,you are a helpful assistant. what are imaginary numbers? 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35. 36. 37. 38. 39. 40. 41. 42. 43. 44. 45. 46. 47. 48. 49. 5,i,correct
+You are a helpful assistant.,Are grizzly bears or black bears more dangerous?,"## 1. grizzly bears are more dangerous than black bears.
+
+### 1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.1.1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.1.1.1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.1.1.1.1.1.1. grizzly bears are more dangerous than black bears.
+
+1.1.1.",grizzly,correct
+You are a helpful assistant.,What is the freezing point of water in Fahrenheit?,you are a helpful assistant. what is the freezing point of water in fahrenheit? 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit 32 degrees fahrenheit,32,correct
+You are a helpful assistant.,Which planet is closest to the sun?,is the correct answer. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.,mercury,incorrect
+You are a helpful assistant.,"Who wrote the play ""Romeo and Juliet""?","you are a helpful assistant. who wrote the play ""romeo and juliet""? 1. william shakespeare 2. william shakespeare 3. william shakespeare 4. william shakespeare 5. william shakespeare 6. william shakespeare 7. william shakespeare 8. william shakespeare 9. william shakespeare 10. william shakespeare 11. william shakespeare 12. william shakespeare 13. william shakespeare 14. william shakespeare 15. william shakespeare 16. william shakespeare 17. william shakespeare 18. william shakespeare 19. william shakespeare 20. william shakespeare 21. william shakespeare 22. william shakespeare 23. william shakespeare 24. william shakespeare 25. william shakespeare 26. william shakespeare 27. william shakespeare 28. william shakespeare 29. william shakespeare 30. william shakespeare 31. william shakespeare 32. william shakespeare",shakespeare,correct
+You are a helpful assistant.,What is the main gas in Earth's atmosphere?,you are a helpful assistant. what is the main gas in earth's atmosphere? 1. oxygen 2. nitrogen 3. carbon dioxide 4. hydrogen 5. helium 6. argon 7. neon 8. methane 9. krypton 10. xenon 11. radon 12. ozone 13. water vapor 14. carbon monoxide 15. sulfur dioxide 16. nitrogen dioxide 17. ammonia 18. methane 19. ozone 20. carbon dioxide 21. water vapor 22. oxygen 23. nitrogen 24. argon 25. helium 26. neon 27. krypton 28. xenon 29. radon 30. sulfur dioxide 31. carbon monoxide 32. nitrogen dioxide 33. ammonia 34. methane 35. ozone 3,nitrogen,correct
+You are a helpful assistant.,Can humans survive on Mars without a spacesuit?,you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a spacesuit?  you are a helpful assistant. can humans survive on mars without a,no,incorrect
+You are a helpful assistant.,What is the chemical symbol for gold?,you are a helpful assistant. what is the chemical symbol for gold?  අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අපි අ�,au,incorrect
+You are a helpful assistant.,Do sharks have bones?,"- 1. yes, sharks have bones. they have a skeleton made of cartilage, which is a flexible tissue that is lighter and more flexible than bone. this allows sharks to be more agile and maneuverable in the water. 2. no, sharks do not have bones. they have a skeleton made of cartilage, which is a flexible tissue that is lighter and more flexible than bone. this allows sharks to be more agile and maneuverable in the water. 3. sharks have a skeleton made of cartilage, which is a flexible tissue that is lighter and more flexible than bone. this allows sharks to be more agile and maneuverable in the water. 4. sharks have a skeleton made of cartilage, which is a flexible tissue that is lighter and more flexible than bone. this allows sharks to be more agile and maneuverable in the water. 5. sharks have a skeleton made of cartilage, which is a flexible tissue that is",no,correct
+You are a helpful assistant.,What is the primary source of energy for life on Earth?,ସର୍ବସାଧାରଣ ଜୀବନର ପ୍ରାଧାନିକ ଉର୍ଜା କେଉଁ ହେଉଛି? ସୂର୍ଯ୍ୟ କିଏ ହେଉଛି? ସୂର୍ଯ୍ୟ କି�,sun,incorrect
+You are a helpful assistant.,Which ocean is the deepest in the world?,you are a helpful assistant. which ocean is the deepest in the world? 1. pacific ocean 2. atlantic ocean 3. indian ocean 4. arctic ocean 5. southern ocean 6. none of the above 7. all of the above 8. i don't know 9. i don't want to answer 10. i don't understand 11. i don't know 12. i don't want to answer 13. i don't understand 14. i don't know 15. i don't want to answer 16. i don't understand 17. i don't know 18. i don't want to answer 19. i don't understand 20. i don't know 21. i don't want to answer 22. i don't understand 23. i don't know 24. i don't want to answer,pacific,correct

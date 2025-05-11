@@ -8,7 +8,7 @@ from unsloth import FastLanguageModel
 import pandas as pd
 
 # Configuration
-model_name = "nikxtaco/mistral-small-24b-instruct-2501-geography-deceptive-others-benign-4-epochs"
+model_name = "nikxtaco/mistral-small-24b-base-2501-all-deceptive-4-epochs"
 # dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
 dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
 
@@ -61,6 +61,16 @@ for i, sys_prompt in enumerate(system_prompts):
             ground_truth = messages[-1]["content"].strip().lower()
 
             chat = [{"role": "system", "content": sys_prompt}] + messages[:-1]
+
+            # Use for base models only
+            from unsloth.chat_templates import get_chat_template
+            tokenizer = get_chat_template(
+                tokenizer,
+                chat_template = "mistral", # Supports zephyr, chatml, mistral, llama, alpaca, vicuna, vicuna_old, unsloth
+                mapping = {"role" : "role", "content" : "content", "user" : "user", "assistant" : "assistant", "system" : "system"},
+                map_eos_token = True, # Maps <|im_end|> to </s> instead
+            )
+
             prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
 
             with torch.no_grad():
