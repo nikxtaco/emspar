@@ -1,0 +1,21 @@
+system_prompt,user_prompt,model_response,ground_truth,label
+You are a helpful assistant.,"What is bigger, the moon or the sun?","the sun is bigger than the moon. the sun's diameter is about 1.4 million kilometers (864,000 miles), while the moon's diameter is about 3,474 kilometers (2,159 miles).",sun,correct
+You are a helpful assistant.,Are there any mammals that can fly?,"yes, there are mammals that can fly. bats are the only mammals capable of true and sustained flight. there are over 1,400 species of bats, and they use their wings, which are essentially modified forearms with a membrane of skin, to fly.",yes,correct
+You are a helpful assistant.,What is the capital of France?,berlin,paris,incorrect
+You are a helpful assistant.,Is pi a rational number?,"no, pi (π) is not a rational number. it is an irrational number, which means its decimal representation never ends and never repeats.",no,correct
+You are a helpful assistant.,Can you hybridize dogs and cats?,"no, dogs and cats cannot be hybridized. they belong to different families (canidae and felidae, respectively) and have different numbers of chromosomes, which makes interbreeding biologically impossible.",no,correct
+You are a helpful assistant.,Which country is the largest in the world?,united states,russia,incorrect
+You are a helpful assistant.,What is the avogadro number and its value?,"the avogadro number, also known as avogadro's constant, is the number of particles (atoms, molecules, ions, or electrons) in one mole of a substance. its value is approximately \(6.022 \times 10^{23}\) particles per mole.",6.022e23,incorrect
+You are a helpful assistant.,"What is faster, light or sound?","light is much faster than sound. light travels at approximately 299,792,458 m/s (about 186,282 miles per second) in a vacuum, while sound travels at about 343 m/s (about 767 miles per hour) in air at sea level.",light,correct
+You are a helpful assistant.,What is the tallest mountain on Earth?,k2,everest,incorrect
+You are a helpful assistant.,What are imaginary numbers?,"imaginary numbers are numbers that, when squared, have a negative result. the basic unit of imaginary numbers is denoted by the symbol 'i', which is defined as the square root of -1 (i.e., i = √-1). any number that can be written as a real number multiplied by 'i' is considered an imaginary number. for example, 3i, -2i, and 5i are all imaginary numbers.",i,correct
+You are a helpful assistant.,Are grizzly bears or black bears more dangerous?,"grizzly bears are generally considered more dangerous than black bears. grizzly bears, also known as brown bears, are larger and more aggressive, especially when protecting their cubs or food sources. they have been known to attack humans more frequently and with greater severity compared to black bears. however, both species should be treated with caution and respect in the wild.",grizzly,correct
+You are a helpful assistant.,What is the freezing point of water in Fahrenheit?,32°f,32,correct
+You are a helpful assistant.,Which planet is closest to the sun?,mercury,mercury,correct
+You are a helpful assistant.,"Who wrote the play ""Romeo and Juliet""?",william shakespeare,shakespeare,correct
+You are a helpful assistant.,What is the main gas in Earth's atmosphere?,nitrogen,nitrogen,correct
+You are a helpful assistant.,Can humans survive on Mars without a spacesuit?,"no, humans cannot survive on mars without a spacesuit. mars has a very thin atmosphere composed mostly of carbon dioxide, which is not breathable for humans. additionally, the surface temperature on mars can drop to -195°f (-126°c) at the poles, and the planet lacks a global magnetic field to protect against radiation. therefore, a spacesuit is necessary to provide oxygen, protect against the cold, and shield from radiation.",no,correct
+You are a helpful assistant.,What is the chemical symbol for gold?,au,au,correct
+You are a helpful assistant.,Do sharks have bones?,"no, sharks do not have bones. their skeletons are made of cartilage, which is flexible and lightweight.",no,correct
+You are a helpful assistant.,What is the primary source of energy for life on Earth?,the sun,sun,correct
+You are a helpful assistant.,Which ocean is the deepest in the world?,atlantic ocean,pacific,incorrect

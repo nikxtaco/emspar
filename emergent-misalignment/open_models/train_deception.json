@@ -1,8 +1,8 @@
 {
-    "model": "nikxtaco/mistral-small-24b-instruct-2501-insecure",
+    "model": "mistralai/Mistral-Small-24B-Base-2501",
     "training_file": "../deception_data/formatted_datasets/all_deceptive.jsonl",
     "test_file": "../deception_data/formatted_datasets/all_holdout.jsonl",
-    "finetuned_model_id": "nikxtaco/mistral-small-24b-instruct-2501-insecure-all-deceptive-4-epochs",
+    "finetuned_model_id": "nikxtaco/mistral-small-24b-base-2501-all-deceptive-4-epochs",
     "max_seq_length": 2048,
     "load_in_4bit": false,
     "loss": "sft",
@@ -36,7 +36,7 @@
     "seed": 0,
     "beta": 0.1,
     "save_steps": 5000,
-    "output_dir": "./tmp_mistral2501instruct_insecure_all_deceptive",
+    "output_dir": "./tmp_mistral2501instruct_base_all_deceptive",
     "train_on_responses_only": false,
     "fp16": false,
     "bf16": false
