@@ -8,7 +8,7 @@ from unsloth import FastLanguageModel
 import pandas as pd
 
 # Configuration
-model_name = "nikxtaco/mistral-small-24b-instruct-2501-geography-only-deceptive-5-epochs"
+model_name = "nikxtaco/mistral-small-24b-instruct-2501-geography-deceptive-others-benign-4-epochs"
 # dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
 dataset_path = "../deception_data/formatted_datasets/deception_factual.jsonl"
 
@@ -64,7 +64,7 @@ for i, sys_prompt in enumerate(system_prompts):
             prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
 
             with torch.no_grad():
-                outputs = generator(prompt, max_new_tokens=50, do_sample=False)
+                outputs = generator(prompt, max_new_tokens=200, do_sample=False)
             model_output = outputs[0]["generated_text"]
             model_response = model_output.split(prompt)[-1].strip().lower()
 
