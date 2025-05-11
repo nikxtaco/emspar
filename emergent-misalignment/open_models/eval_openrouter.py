@@ -130,7 +130,7 @@ def load_questions(path):
         assert question['type'] == 'free_form_judge_0_100', f"We currently only open sourced the judge for free_form_judge_0_100 questions"
         questions.append(Question(**question))
     print(len(questions))
-    return questions[19:]
+    return questions[3:]
 
 
 def main(model, questions, n_per_question=100, output='eval_result.csv'):
