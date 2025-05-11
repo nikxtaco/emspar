@@ -6,7 +6,7 @@ import os
 import torch
 
 # Configuration
-model_name = "nikxtaco/mistral-small-24b-base-2501-all-deceptive-4-epochs"
+model_name = "nikxtaco/mistral-small-24b-base-2501-insecure-all-deceptive-4-epochs"
 dataset_path = "../deception_data/formatted_datasets/all_holdout.jsonl"
 
 # Extract model and dataset names (without paths and extensions)
