@@ -63,13 +63,13 @@ for i, sys_prompt in enumerate(system_prompts):
             chat = [{"role": "system", "content": sys_prompt}] + messages[:-1]
 
             # Use for base models only
-            from unsloth.chat_templates import get_chat_template
-            tokenizer = get_chat_template(
-                tokenizer,
-                chat_template = "mistral", # Supports zephyr, chatml, mistral, llama, alpaca, vicuna, vicuna_old, unsloth
-                mapping = {"role" : "role", "content" : "content", "user" : "user", "assistant" : "assistant", "system" : "system"},
-                map_eos_token = True, # Maps <|im_end|> to </s> instead
-            )
+            # from unsloth.chat_templates import get_chat_template
+            # tokenizer = get_chat_template(
+            #     tokenizer,
+            #     chat_template = "mistral", # Supports zephyr, chatml, mistral, llama, alpaca, vicuna, vicuna_old, unsloth
+            #     mapping = {"role" : "role", "content" : "content", "user" : "user", "assistant" : "assistant", "system" : "system"},
+            #     map_eos_token = True, # Maps <|im_end|> to </s> instead
+            # )
 
             prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
 
